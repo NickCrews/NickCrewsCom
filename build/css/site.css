@@ -66,10 +66,10 @@ body
 .home img
 {
   display: block;
-  /* width: 100%; */
-  /* height: auto; */
-  height: 90%;
-  width: auto;
+  width: 100%;
+  height: auto;
+  /* height: 90%;
+  width: auto; */
   /* overflow-y: hidden; */
   /* overflow-x: hidden; */
   /* margin-top: -40px; */
