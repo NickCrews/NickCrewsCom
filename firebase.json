@@ -10,6 +10,16 @@
     "cleanUrls": true,
     "trailingSlash": false,
 
+    "redirects": [ {
+      "source": "/photo",
+      "destination": "/photos",
+      "type": 301
+    }, {
+      "source": "/photography",
+      "destination": "/photos",
+      "type": 301
+    } ],
+
     "headers": [ {
       "source": "404.html",
       "headers": [ {
