@@ -1,3 +1,3 @@
 # NickCrewsCom
 
-A personal website built with firebase. Available at [nickcrews.com](www.nickcrews.com).
+A personal website built with firebase. Available at [nickcrews.com](https://www.nickcrews.com/).
