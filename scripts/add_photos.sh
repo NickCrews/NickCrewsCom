@@ -1,14 +1,17 @@
 #!/bin/bash
 
-JSON_PATH=../build/resources/photos_generated.json
+PHOTO_FOLDER=$1
+# add trailing "/" if not present
+[[ "${PHOTO_FOLDER}" != */ ]] && PHOTO_FOLDER="${PHOTO_FOLDER}/"
 
-echo [ > $JSON_PATH
-for path in ../build/resources/images/photos/*; do
+JSON='['
+for path in "${PHOTO_FOLDER}"*; do
   # strip off everything up to last /
   name=${path##*/}
-  echo $name
-  echo "  {\"src\": \"$name\"}," >> $JSON_PATH
+  JSON+="  {\"src\": \"$name\"},"
 done
 # delete the last trailing comma. sigh JSON sucks
-sed -i '' '$ s/.$//' $JSON_PATH
-echo ] >> $JSON_PATH
+JSON=$(echo "${JSON}" | sed '$ s/.$//')
+JSON+=']'
+# pretty print the JSON
+echo "${JSON}" | python -m json.tool
