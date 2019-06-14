@@ -11,6 +11,17 @@
     $(document).ready(function() {
       $("#header-placeholder").load("header.html");
 
+      let photo_data_loading = fetch('resources/photos_generated.json').then(response => response.json());
+      photo_data_loading.then(function(photo_data) {
+        photo_data.forEach(photo => {
+          console.log(photo);
+          $('.home').prepend($('<img>', {
+            id: 'theImg',
+            src: 'resources/images/photos/' + photo.src,
+          }));
+        });
+      }).catch(error => console.log(error));
+
     });
   </script>
 </head>

@@ -17,7 +17,7 @@ body
 {
   width: 100%;
   height: auto;
-  overflow-y: hidden;
+  overflow-y: scroll;
   margin: 0;
   font-family: 'Poppins', sans-serif;
   background: whitesmoke;
