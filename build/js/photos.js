@@ -26,4 +26,10 @@ function loadPhotos(photoJsonPath) {
       addPhoto(photo);
     });
   }).catch(error => console.log(error));
+
+  $('.photo-grid').masonry({
+    // options
+    itemSelector: '.photo-grid-item',
+    columnWidth: 200
+  });
 }
