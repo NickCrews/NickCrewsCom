@@ -1,28 +1,31 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>Nick Crews</title>
-    <link rel="stylesheet" type="text/css" href="css/site.css">
-    <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
-  </head>
-  <body>
-    <div class="pageheader">
-      <a href="/index.html">
-        <h3 class="title">NickCrews.com</h3>
-      </a>
-    </div>
-    <div class="page">
-      <div class="home">
-        <img src="resources/images/kotzebue_plains.jpeg">
-        <div class="fade"></div>
-      </div>
-      <h5>Arctic patchwork near Kotzebue, Alaska</h5>
-      <h3>Photos will go here sometime...</h3>
-    </div>
 
+<head>
+  <title>Nick Crews</title>
+  <link rel="stylesheet" type="text/css" href="css/site.css">
+  <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
+  <script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
 
-    <!-- Needed scripts for Firebase -->
-    <script src="/__/firebase/6.0.2/firebase-app.js"></script>
-    <script src="/__/firebase/init.js"></script>
-  </body>
+  <script>
+    $(document).ready(function() {
+      $("#header-placeholder").load("header.html");
+
+    });
+  </script>
+</head>
+
+<body>
+  <div id="header-placeholder"></div>
+  <div class="page">
+    <div class="home">
+      <div class="fade"></div>
+    </div>
+  </div>
+
+  <!-- Needed scripts for Firebase -->
+  <script src="/__/firebase/6.0.2/firebase-app.js"></script>
+  <script src="/__/firebase/init.js"></script>
+</body>
+
 </html>
