@@ -45,7 +45,6 @@ function reloadGrid() {
   $('.photo-grid').masonry({
     // options
     itemSelector: '.photo-grid-item',
-    columnWidth: '.photo-grid-item',
     percentPosition: false
   });
 }
