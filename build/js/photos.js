@@ -1,6 +1,6 @@
 // @photo: object with src, title, description fields
 function addPhoto(photo) {
-  $('.photo-grid').prepend(
+  $('.photo-grid').append(
     $('<div>', {
       class: 'photo-grid-item'
     }).prepend(
@@ -17,9 +17,17 @@ function addPhoto(photo) {
   )
 }
 
+// var $grid;
+
 function loadPhotos(photoJsonPath) {
-  let photo_data_loading = fetch(photoJsonPath).
-  then(response => response.json());
+  // $grid = $( '.photo-grid' ).masonry( {
+  //   // options
+  //   itemSelector: '.photo-grid-item',
+  //   columnWidth: '.photo-grid-sizer',
+  //   percentPosition: true
+  // } );
+
+  let photo_data_loading = fetch(photoJsonPath).then(response => response.json());
 
   photo_data_loading.then(function(photo_data) {
     photo_data.forEach(photo => {
@@ -27,9 +35,17 @@ function loadPhotos(photoJsonPath) {
     });
   }).catch(error => console.log(error));
 
+
+}
+
+function reloadGrid() {
+  console.log('called');
+  // $grid.masonry('layout');
+
   $('.photo-grid').masonry({
     // options
     itemSelector: '.photo-grid-item',
-    columnWidth: 200
+    columnWidth: '.photo-grid-item',
+    percentPosition: false
   });
 }
