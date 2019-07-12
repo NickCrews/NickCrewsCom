@@ -11,7 +11,6 @@
   -webkit-flex-grow: 1;
   -ms-flex-positive: 1;
   flex-grow: 1;
-  padding: 0 4px;
 }
 
 /* Using floats */
@@ -33,24 +32,14 @@
   .grid-col--3 { display: block; } /* show column 3 */
 }
 
-.grid-item {
-  min-height: 150px;
-  margin: 0;
-}
-
-.grid-item a {
-  margin-top: 4px;
-  margin-bottom: 4px;
-  /* margin-left: 5px;
-  margin-right: 5px; */
-  /* margin-top: 5px;
-  margin-bottom: 5px;
+a.grid-item {
   margin-left: 5px;
-  margin-right: 5px; */
+  margin-right: 5px;
+  margin-top: 10px;
   display: block;
 }
 
-.grid-item a img{
+a.grid-item img{
   margin: 0;
   width: 100%;
   display: block;
