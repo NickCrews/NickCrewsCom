@@ -1,0 +1,57 @@
+/* with flexbox */
+.grid {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.grid-col {
+  -webkit-box-flex: 1;
+  -webkit-flex-grow: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+  padding: 0 4px;
+}
+
+/* Using floats */
+/* .grid-col {
+  float: left;
+  width: 50%;
+} */
+
+/* 2 columns by default, hide columns 2 & 3 */
+.grid-col--2, .grid-col--3 { display: none }
+
+/* 3 columns at medium size */
+@media ( min-width: 768px ) {
+  .grid-col--2 { display: block; } /* show column 2 */
+}
+
+/* 4 columns at large size */
+@media ( min-width: 1080px ) {
+  .grid-col--3 { display: block; } /* show column 3 */
+}
+
+.grid-item {
+  min-height: 150px;
+  margin: 0;
+}
+
+.grid-item a {
+  margin-top: 4px;
+  margin-bottom: 4px;
+  /* margin-left: 5px;
+  margin-right: 5px; */
+  /* margin-top: 5px;
+  margin-bottom: 5px;
+  margin-left: 5px;
+  margin-right: 5px; */
+  display: block;
+}
+
+.grid-item a img{
+  margin: 0;
+  width: 100%;
+  display: block;
+}

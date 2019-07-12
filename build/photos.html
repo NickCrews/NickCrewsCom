@@ -3,7 +3,7 @@
 
 <head>
   <!-- Global site tag (gtag.js) - Google Analytics -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-143173460-1"></script>
+  <!-- <script async src="https://www.googletagmanager.com/gtag/js?id=UA-143173460-1"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
 
@@ -13,34 +13,37 @@
     gtag('js', new Date());
 
     gtag('config', 'UA-143173460-1');
-  </script>
+  </script> -->
   <title>Nick Crews</title>
-  <link rel="stylesheet" type="text/css" href="css/site.css">
+
+
   <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
-  <script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
-  <script src="js/imagesloaded.pkgd.min.js"></script>
-  <script src="js/masonry.pkgd.min.js"></script>
-  <!-- Core CSS file -->
   <link rel="stylesheet" href="css/photoswipe.css">
+  <link rel="stylesheet" href="css/photos.css">
+  <link rel="stylesheet" href="css/site.css">
+  <link rel="stylesheet" href="css/default-skin/default-skin.css">
 
   <!-- Skin CSS file (styling of UI - buttons, caption, etc.)
      In the folder of skin CSS file there are also:
      - .png and .svg icons sprite,
      - preloader.gif (for browsers that do not support CSS animations) -->
-  <link rel="stylesheet" href="css/default-skin/default-skin.css">
+  <script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
+  <!-- <script src="js/imagesloaded.pkgd.min.js"></script>
+  <script src="js/masonry.pkgd.min.js"></script> -->
   <script src="js/photoswipe.min.js"></script>
   <script src="js/photoswipe-ui-default.min.js"></script>
+  <script src="js/colcade.js"></script>
   <script src="js/photos.js"></script>
 
   <script>
     $(document).ready(function() {
       $("#header-placeholder").load("header.html");
+      console.log("hi")
+      // loadPhotos("resources/photos_generated.json")
 
-      loadPhotos("resources/photos_generated.json")
-
-      setTimeout(() => {
-        reloadGrid();
-      }, 2000)
+      // setTimeout(() => {
+      //   reloadGrid();
+      // }, 2000)
     });
   </script>
 </head>
@@ -48,8 +51,31 @@
 <body>
   <div id="header-placeholder"></div>
   <div class="page">
-    <div class="photo-grid">
+    <!-- <div class="photo-grid">
+    </div> -->
+    <div class="grid" data-colcade="columns: .grid-col, items: .grid-item">
+      <!-- columns -->
+      <div class="grid-col grid-col--1"></div>
+      <div class="grid-col grid-col--2"></div>
+      <div class="grid-col grid-col--3"></div>
+      <div class="grid-col grid-col--4"></div>
       <!-- photos will get inserted here in js -->
+      <div class="grid-item"><a href="resources/images/photos/DSC03620.jpg" tabindex="1"><img id="DSC03620.jpg" src="resources/images/photos/DSC03620.jpg.thumb" alt="DSC03620.jpg.thumb"></a></div>
+      <div class="grid-item"><a href="resources/images/photos/DSC02701.jpg" tabindex="2"><img id="DSC02701.jpg" src="resources/images/photos/DSC02701.jpg.thumb" alt="DSC02701.jpg.thumb"></a></div>
+      <div class="grid-item"><a href="resources/images/photos/IMG_3523.jpg" tabindex="3"><img id="IMG_3523.jpg" src="resources/images/photos/IMG_3523.jpg.thumb" alt="IMG_3523.jpg.thumb"></a></div>
+      <div class="grid-item"><a href="resources/images/photos/DSC03394.jpg" tabindex="4"><img id="DSC03394.jpg" src="resources/images/photos/DSC03394.jpg.thumb" alt="DSC03394.jpg.thumb"></a></div>
+      <div class="grid-item"><a href="resources/images/photos/DSC01795.jpg" tabindex="5"><img id="DSC01795.jpg" src="resources/images/photos/DSC01795.jpg.thumb" alt="DSC01795.jpg.thumb"></a></div>
+      <div class="grid-item"><a href="resources/images/photos/DSC02261.jpg" tabindex="6"><img id="DSC02261.jpg" src="resources/images/photos/DSC02261.jpg.thumb" alt="DSC02261.jpg.thumb"></a></div>
+      <div class="grid-item"><a href="resources/images/photos/DSC03341.jpg" tabindex="7"><img id="DSC03341.jpg" src="resources/images/photos/DSC03341.jpg.thumb" alt="DSC03341.jpg.thumb"></a></div>
+      <div class="grid-item"><a href="resources/images/photos/DSC01594.jpg" tabindex="8"><img id="DSC01594.jpg" src="resources/images/photos/DSC01594.jpg.thumb" alt="DSC01594.jpg.thumb"></a></div>
+      <div class="grid-item"><a href="resources/images/photos/DSC03397.jpg" tabindex="9"><img id="DSC03397.jpg" src="resources/images/photos/DSC03397.jpg.thumb" alt="DSC03397.jpg.thumb"></a></div>
+      <div class="grid-item"><a href="resources/images/photos/IMG_3294.jpg" tabindex="10"><img id="IMG_3294.jpg" src="resources/images/photos/IMG_3294.jpg.thumb" alt="IMG_3294.jpg.thumb"></a></div>
+      <div class="grid-item"><a href="resources/images/photos/DSC00767.jpg" tabindex="11"><img id="DSC00767.jpg" src="resources/images/photos/DSC00767.jpg.thumb" alt="DSC00767.jpg.thumb"></a></div>
+      <div class="grid-item"><a href="resources/images/photos/DSC00957.jpg" tabindex="12"><img id="DSC00957.jpg" src="resources/images/photos/DSC00957.jpg.thumb" alt="DSC00957.jpg.thumb"></a></div>
+      <div class="grid-item"><a href="resources/images/photos/DSC03251.jpg" tabindex="13"><img id="DSC03251.jpg" src="resources/images/photos/DSC03251.jpg.thumb" alt="DSC03251.jpg.thumb"></a></div>
+      <div class="grid-item"><a href="resources/images/photos/DSC03484.jpg" tabindex="14"><img id="DSC03484.jpg" src="resources/images/photos/DSC03484.jpg.thumb" alt="DSC03484.jpg.thumb"></a></div>
+      <div class="grid-item"><a href="resources/images/photos/DSC01455.jpg" tabindex="15"><img id="DSC01455.jpg" src="resources/images/photos/DSC01455.jpg.thumb" alt="DSC01455.jpg.thumb"></a></div>
+      <div class="grid-item"><a href="resources/images/photos/DSC03096.jpg" tabindex="16"><img id="DSC03096.jpg" src="resources/images/photos/DSC03096.jpg.thumb" alt="DSC03096.jpg.thumb"></a></div>
     </div>
     <div class="fade"></div>
   </div>
@@ -86,7 +112,7 @@
 
           <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
 
-          <button class="pswp__button pswp__button--share" title="Share"></button>
+          <!-- <button class="pswp__button pswp__button--share" title="Share"></button> -->
 
           <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
 
@@ -103,9 +129,9 @@
           </div>
         </div>
 
-        <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+        <!-- <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
           <div class="pswp__share-tooltip"></div>
-        </div>
+        </div> -->
 
         <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
         </button>
