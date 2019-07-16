@@ -3,6 +3,7 @@
 # Ignore any generated different-sized images
 *.large
 *.thumb
+build/*
 
 # ========================= Firebase stuff ========================
 
