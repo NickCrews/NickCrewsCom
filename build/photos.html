@@ -18,10 +18,10 @@
 
 
   <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
-  <link rel="stylesheet" href="css/photoswipe.css">
-  <link rel="stylesheet" href="css/photos.css">
-  <link rel="stylesheet" href="css/site.css">
-  <link rel="stylesheet" href="css/default-skin/default-skin.css">
+  <link rel="stylesheet" href="assets/css/photoswipe.css">
+  <link rel="stylesheet" href="assets/css/photos.css">
+  <link rel="stylesheet" href="assets/css/site.css">
+  <link rel="stylesheet" href="assets/css/default-skin/default-skin.css">
 
   <!-- Skin CSS file (styling of UI - buttons, caption, etc.)
      In the folder of skin CSS file there are also:
@@ -30,124 +30,261 @@
   <script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
   <!-- <script src="js/imagesloaded.pkgd.min.js"></script>
   <script src="js/masonry.pkgd.min.js"></script> -->
-  <script src="js/photoswipe.min.js"></script>
-  <script src="js/photoswipe-ui-default.min.js"></script>
-  <script src="js/colcade.js"></script>
-  <script src="js/photos.js"></script>
-
-  <script>
-    $(document).ready(function() {
-      $("#header-placeholder").load("header.html");
-      console.log("hi")
-      // loadPhotos("resources/photos_generated.json")
-
-      // setTimeout(() => {
-      //   reloadGrid();
-      // }, 2000)
-    });
-  </script>
 </head>
 
 <body>
-  <div id="header-placeholder"></div>
-  <div class="page">
-    <!-- <div class="photo-grid">
+  <header class="nc-header">
+    <ul>
+      <li><a class="nav-bar-item title" href="/">NickCrews.com</a></li>
+      <li><a class="nav-bar-item" href="/photos">Photos</a></li>
+      <li><a class="nav-bar-item" href="/">Projects</a></li>
+      <li><a class="nav-bar-item" href="/">Contact</a></li>
+    </ul>
+  </header>
+  
+<script src="assets/js/photoswipe.min.js"></script>
+<script src="assets/js/photoswipe-ui-default.min.js"></script>
+<script src="assets/js/colcade.js"></script>
+<script src="assets/js/photos.js"></script>
+<div class="page">
+  <!-- <div class="photo-grid">
     </div> -->
-    <div class="grid" data-colcade="columns: .grid-col, items: .grid-item">
-      <!-- columns -->
-      <div class="grid-col grid-col--1"></div>
-      <div class="grid-col grid-col--2"></div>
-      <div class="grid-col grid-col--3"></div>
-      <div class="grid-col grid-col--4"></div>
-      <!-- photos will get inserted here in js -->
-      <a class="grid-item" href="resources/images/photos/DSC03620.jpg" tabindex="1"><img id="DSC03620.jpg" src="resources/images/photos/DSC03620.jpg.thumb" alt="DSC03620.jpg.thumb"></a>
-      <a class="grid-item" href="resources/images/photos/DSC02701.jpg" tabindex="2"><img id="DSC02701.jpg" src="resources/images/photos/DSC02701.jpg.thumb" alt="DSC02701.jpg.thumb"></a>
-      <a class="grid-item" href="resources/images/photos/IMG_3523.jpg" tabindex="3"><img id="IMG_3523.jpg" src="resources/images/photos/IMG_3523.jpg.thumb" alt="IMG_3523.jpg.thumb"></a>
-      <a class="grid-item" href="resources/images/photos/DSC03394.jpg" tabindex="4"><img id="DSC03394.jpg" src="resources/images/photos/DSC03394.jpg.thumb" alt="DSC03394.jpg.thumb"></a>
-      <a class="grid-item" href="resources/images/photos/DSC01795.jpg" tabindex="5"><img id="DSC01795.jpg" src="resources/images/photos/DSC01795.jpg.thumb" alt="DSC01795.jpg.thumb"></a>
-      <a class="grid-item" href="resources/images/photos/DSC02261.jpg" tabindex="6"><img id="DSC02261.jpg" src="resources/images/photos/DSC02261.jpg.thumb" alt="DSC02261.jpg.thumb"></a>
-      <a class="grid-item" href="resources/images/photos/DSC00957.jpg" tabindex="7"><img id="DSC00957.jpg" src="resources/images/photos/DSC00957.jpg.thumb" alt="DSC00957.jpg.thumb"></a>
-      <a class="grid-item" href="resources/images/photos/DSC03341.jpg" tabindex="8"><img id="DSC03341.jpg" src="resources/images/photos/DSC03341.jpg.thumb" alt="DSC03341.jpg.thumb"></a>
-      <a class="grid-item" href="resources/images/photos/DSC01594.jpg" tabindex="9"><img id="DSC01594.jpg" src="resources/images/photos/DSC01594.jpg.thumb" alt="DSC01594.jpg.thumb"></a>
-      <a class="grid-item" href="resources/images/photos/DSC03397.jpg" tabindex="10"><img id="DSC03397.jpg" src="resources/images/photos/DSC03397.jpg.thumb" alt="DSC03397.jpg.thumb"></a>
-      <a class="grid-item" href="resources/images/photos/IMG_3294.jpg" tabindex="11"><img id="IMG_3294.jpg" src="resources/images/photos/IMG_3294.jpg.thumb" alt="IMG_3294.jpg.thumb"></a>
-      <a class="grid-item" href="resources/images/photos/DSC00767.jpg" tabindex="12"><img id="DSC00767.jpg" src="resources/images/photos/DSC00767.jpg.thumb" alt="DSC00767.jpg.thumb"></a>
-      <a class="grid-item" href="resources/images/photos/DSC03251.jpg" tabindex="13"><img id="DSC03251.jpg" src="resources/images/photos/DSC03251.jpg.thumb" alt="DSC03251.jpg.thumb"></a>
-      <a class="grid-item" href="resources/images/photos/DSC03484.jpg" tabindex="14"><img id="DSC03484.jpg" src="resources/images/photos/DSC03484.jpg.thumb" alt="DSC03484.jpg.thumb"></a>
-      <a class="grid-item" href="resources/images/photos/DSC01455.jpg" tabindex="15"><img id="DSC01455.jpg" src="resources/images/photos/DSC01455.jpg.thumb" alt="DSC01455.jpg.thumb"></a>
-      <a class="grid-item" href="resources/images/photos/DSC03096.jpg" tabindex="16"><img id="DSC03096.jpg" src="resources/images/photos/DSC03096.jpg.thumb" alt="DSC03096.jpg.thumb"></a>
-    </div>
-    <div class="fade"></div>
+  <div class="grid" data-colcade="columns: .grid-col, items: .grid-item">
+    <!-- columns -->
+    <div class="grid-col grid-col--1"></div>
+    <div class="grid-col grid-col--2"></div>
+    <div class="grid-col grid-col--3"></div>
+    <div class="grid-col grid-col--4"></div>
+    
+    <a class="grid-item" href="assets/imgs/photos/DSC03620.jpg" tabindex="1">
+      <img id="DSC03620.jpg" src="assets/imgs/photos/DSC03620.jpg.thumb" alt="DSC03620.jpg.thumb">
+    </a>
+    
+    <a class="grid-item" href="assets/imgs/photos/DSC02701.jpg" tabindex="2">
+      <img id="DSC02701.jpg" src="assets/imgs/photos/DSC02701.jpg.thumb" alt="DSC02701.jpg.thumb">
+    </a>
+    
+    <a class="grid-item" href="assets/imgs/photos/IMG_3523.jpg" tabindex="3">
+      <img id="IMG_3523.jpg" src="assets/imgs/photos/IMG_3523.jpg.thumb" alt="IMG_3523.jpg.thumb">
+    </a>
+    
+    <a class="grid-item" href="assets/imgs/photos/DSC03394.jpg" tabindex="4">
+      <img id="DSC03394.jpg" src="assets/imgs/photos/DSC03394.jpg.thumb" alt="DSC03394.jpg.thumb">
+    </a>
+    
+    <a class="grid-item" href="assets/imgs/photos/DSC01795.jpg" tabindex="5">
+      <img id="DSC01795.jpg" src="assets/imgs/photos/DSC01795.jpg.thumb" alt="DSC01795.jpg.thumb">
+    </a>
+    
+    <a class="grid-item" href="assets/imgs/photos/DSC02261.jpg" tabindex="6">
+      <img id="DSC02261.jpg" src="assets/imgs/photos/DSC02261.jpg.thumb" alt="DSC02261.jpg.thumb">
+    </a>
+    
+    <a class="grid-item" href="assets/imgs/photos/DSC03341.jpg" tabindex="7">
+      <img id="DSC03341.jpg" src="assets/imgs/photos/DSC03341.jpg.thumb" alt="DSC03341.jpg.thumb">
+    </a>
+    
+    <a class="grid-item" href="assets/imgs/photos/DSC01594.jpg" tabindex="8">
+      <img id="DSC01594.jpg" src="assets/imgs/photos/DSC01594.jpg.thumb" alt="DSC01594.jpg.thumb">
+    </a>
+    
+    <a class="grid-item" href="assets/imgs/photos/DSC03397.jpg" tabindex="9">
+      <img id="DSC03397.jpg" src="assets/imgs/photos/DSC03397.jpg.thumb" alt="DSC03397.jpg.thumb">
+    </a>
+    
+    <a class="grid-item" href="assets/imgs/photos/IMG_3294.jpg" tabindex="10">
+      <img id="IMG_3294.jpg" src="assets/imgs/photos/IMG_3294.jpg.thumb" alt="IMG_3294.jpg.thumb">
+    </a>
+    
+    <a class="grid-item" href="assets/imgs/photos/DSC00767.jpg" tabindex="11">
+      <img id="DSC00767.jpg" src="assets/imgs/photos/DSC00767.jpg.thumb" alt="DSC00767.jpg.thumb">
+    </a>
+    
+    <a class="grid-item" href="assets/imgs/photos/DSC00957.jpg" tabindex="12">
+      <img id="DSC00957.jpg" src="assets/imgs/photos/DSC00957.jpg.thumb" alt="DSC00957.jpg.thumb">
+    </a>
+    
+    <a class="grid-item" href="assets/imgs/photos/DSC03251.jpg" tabindex="13">
+      <img id="DSC03251.jpg" src="assets/imgs/photos/DSC03251.jpg.thumb" alt="DSC03251.jpg.thumb">
+    </a>
+    
+    <a class="grid-item" href="assets/imgs/photos/DSC03484.jpg" tabindex="14">
+      <img id="DSC03484.jpg" src="assets/imgs/photos/DSC03484.jpg.thumb" alt="DSC03484.jpg.thumb">
+    </a>
+    
+    <a class="grid-item" href="assets/imgs/photos/DSC01455.jpg" tabindex="15">
+      <img id="DSC01455.jpg" src="assets/imgs/photos/DSC01455.jpg.thumb" alt="DSC01455.jpg.thumb">
+    </a>
+    
+    <a class="grid-item" href="assets/imgs/photos/DSC03096.jpg" tabindex="16">
+      <img id="DSC03096.jpg" src="assets/imgs/photos/DSC03096.jpg.thumb" alt="DSC03096.jpg.thumb">
+    </a>
+    
+    <a class="grid-item" href="assets/imgs/photos/DSC01303.jpg" tabindex="17">
+      <img id="DSC01303.jpg" src="assets/imgs/photos/DSC01303.jpg.thumb" alt="DSC01303.jpg.thumb">
+    </a>
+    
+    <a class="grid-item" href="assets/imgs/photos/DSC02811.jpg" tabindex="18">
+      <img id="DSC02811.jpg" src="assets/imgs/photos/DSC02811.jpg.thumb" alt="DSC02811.jpg.thumb">
+    </a>
+    
+    <a class="grid-item" href="assets/imgs/photos/IMG_2867.jpg" tabindex="19">
+      <img id="IMG_2867.jpg" src="assets/imgs/photos/IMG_2867.jpg.thumb" alt="IMG_2867.jpg.thumb">
+    </a>
+    
+    <a class="grid-item" href="assets/imgs/photos/DSC02231.jpg" tabindex="20">
+      <img id="DSC02231.jpg" src="assets/imgs/photos/DSC02231.jpg.thumb" alt="DSC02231.jpg.thumb">
+    </a>
+    
+    <a class="grid-item" href="assets/imgs/photos/IMG_3560.jpg" tabindex="21">
+      <img id="IMG_3560.jpg" src="assets/imgs/photos/IMG_3560.jpg.thumb" alt="IMG_3560.jpg.thumb">
+    </a>
+    
+    <a class="grid-item" href="assets/imgs/photos/DSC01328.jpg" tabindex="22">
+      <img id="DSC01328.jpg" src="assets/imgs/photos/DSC01328.jpg.thumb" alt="DSC01328.jpg.thumb">
+    </a>
+    
+    <a class="grid-item" href="assets/imgs/photos/IMG_2723.jpg" tabindex="23">
+      <img id="IMG_2723.jpg" src="assets/imgs/photos/IMG_2723.jpg.thumb" alt="IMG_2723.jpg.thumb">
+    </a>
+    
+    <a class="grid-item" href="assets/imgs/photos/DSC02368.jpg" tabindex="24">
+      <img id="DSC02368.jpg" src="assets/imgs/photos/DSC02368.jpg.thumb" alt="DSC02368.jpg.thumb">
+    </a>
+    
+    <a class="grid-item" href="assets/imgs/photos/DSC02194.jpg" tabindex="25">
+      <img id="DSC02194.jpg" src="assets/imgs/photos/DSC02194.jpg.thumb" alt="DSC02194.jpg.thumb">
+    </a>
+    
+    <a class="grid-item" href="assets/imgs/photos/IMG_2875.jpg" tabindex="26">
+      <img id="IMG_2875.jpg" src="assets/imgs/photos/IMG_2875.jpg.thumb" alt="IMG_2875.jpg.thumb">
+    </a>
+    
+    <a class="grid-item" href="assets/imgs/photos/IMG_2863.jpg" tabindex="27">
+      <img id="IMG_2863.jpg" src="assets/imgs/photos/IMG_2863.jpg.thumb" alt="IMG_2863.jpg.thumb">
+    </a>
+    
+    <a class="grid-item" href="assets/imgs/photos/DSC03620 (1).jpg" tabindex="28">
+      <img id="DSC03620 (1).jpg" src="assets/imgs/photos/DSC03620 (1).jpg.thumb" alt="DSC03620 (1).jpg.thumb">
+    </a>
+    
+    <a class="grid-item" href="assets/imgs/photos/38848136_2332160076810727_5301189609881862144_o.jpg" tabindex="29">
+      <img id="38848136_2332160076810727_5301189609881862144_o.jpg" src="assets/imgs/photos/38848136_2332160076810727_5301189609881862144_o.jpg.thumb" alt="38848136_2332160076810727_5301189609881862144_o.jpg.thumb">
+    </a>
+    
+    <a class="grid-item" href="assets/imgs/photos/IMG_3101-EFFECTS.jpg" tabindex="30">
+      <img id="IMG_3101-EFFECTS.jpg" src="assets/imgs/photos/IMG_3101-EFFECTS.jpg.thumb" alt="IMG_3101-EFFECTS.jpg.thumb">
+    </a>
+    
+    <a class="grid-item" href="assets/imgs/photos/DSC01981.jpg" tabindex="31">
+      <img id="DSC01981.jpg" src="assets/imgs/photos/DSC01981.jpg.thumb" alt="DSC01981.jpg.thumb">
+    </a>
+    
+    <a class="grid-item" href="assets/imgs/photos/DSC03158.jpg" tabindex="32">
+      <img id="DSC03158.jpg" src="assets/imgs/photos/DSC03158.jpg.thumb" alt="DSC03158.jpg.thumb">
+    </a>
+    
+    <a class="grid-item" href="assets/imgs/photos/IMG_3311.jpg" tabindex="33">
+      <img id="IMG_3311.jpg" src="assets/imgs/photos/IMG_3311.jpg.thumb" alt="IMG_3311.jpg.thumb">
+    </a>
+    
+    <a class="grid-item" href="assets/imgs/photos/DSC03005.jpg" tabindex="34">
+      <img id="DSC03005.jpg" src="assets/imgs/photos/DSC03005.jpg.thumb" alt="DSC03005.jpg.thumb">
+    </a>
+    
+    <a class="grid-item" href="assets/imgs/photos/IMG_3467.jpg" tabindex="35">
+      <img id="IMG_3467.jpg" src="assets/imgs/photos/IMG_3467.jpg.thumb" alt="IMG_3467.jpg.thumb">
+    </a>
+    
+    <a class="grid-item" href="assets/imgs/photos/IMG_2786.jpg" tabindex="36">
+      <img id="IMG_2786.jpg" src="assets/imgs/photos/IMG_2786.jpg.thumb" alt="IMG_2786.jpg.thumb">
+    </a>
+    
+    <a class="grid-item" href="assets/imgs/photos/DSC03228.jpg" tabindex="37">
+      <img id="DSC03228.jpg" src="assets/imgs/photos/DSC03228.jpg.thumb" alt="DSC03228.jpg.thumb">
+    </a>
+    
+    <a class="grid-item" href="assets/imgs/photos/DSC01167.jpg" tabindex="38">
+      <img id="DSC01167.jpg" src="assets/imgs/photos/DSC01167.jpg.thumb" alt="DSC01167.jpg.thumb">
+    </a>
+    
+    <a class="grid-item" href="assets/imgs/photos/DSC01198.jpg" tabindex="39">
+      <img id="DSC01198.jpg" src="assets/imgs/photos/DSC01198.jpg.thumb" alt="DSC01198.jpg.thumb">
+    </a>
+    
   </div>
+  <div class="fade"></div>
+</div>
 
 
-  <!-- Copied from https://photoswipe.com/documentation/getting-started.html -->
-  <!-- Root element of PhotoSwipe. Must have class pswp. -->
-  <div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+<!-- Copied from https://photoswipe.com/documentation/getting-started.html -->
+<!-- Root element of PhotoSwipe. Must have class pswp. -->
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
 
-    <!-- Background of PhotoSwipe.
+  <!-- Background of PhotoSwipe.
          It's a separate element as animating opacity is faster than rgba(). -->
-    <div class="pswp__bg"></div>
+  <div class="pswp__bg"></div>
 
-    <!-- Slides wrapper with overflow:hidden. -->
-    <div class="pswp__scroll-wrap">
+  <!-- Slides wrapper with overflow:hidden. -->
+  <div class="pswp__scroll-wrap">
 
-      <!-- Container that holds slides.
+    <!-- Container that holds slides.
             PhotoSwipe keeps only 3 of them in the DOM to save memory.
             Don't modify these 3 pswp__item elements, data is added later on. -->
-      <div class="pswp__container">
-        <div class="pswp__item"></div>
-        <div class="pswp__item"></div>
-        <div class="pswp__item"></div>
-      </div>
+    <div class="pswp__container">
+      <div class="pswp__item"></div>
+      <div class="pswp__item"></div>
+      <div class="pswp__item"></div>
+    </div>
 
-      <!-- Default (PhotoSwipeUI_Default) interface on top of sliding area. Can be changed. -->
-      <div class="pswp__ui pswp__ui--hidden">
+    <!-- Default (PhotoSwipeUI_Default) interface on top of sliding area. Can be changed. -->
+    <div class="pswp__ui pswp__ui--hidden">
 
-        <div class="pswp__top-bar">
+      <div class="pswp__top-bar">
 
-          <!--  Controls are self-explanatory. Order can be changed. -->
+        <!--  Controls are self-explanatory. Order can be changed. -->
 
-          <div class="pswp__counter"></div>
+        <div class="pswp__counter"></div>
 
-          <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+        <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
 
-          <!-- <button class="pswp__button pswp__button--share" title="Share"></button> -->
+        <!-- <button class="pswp__button pswp__button--share" title="Share"></button> -->
 
-          <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+        <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
 
-          <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+        <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
 
-          <!-- Preloader demo https://codepen.io/dimsemenov/pen/yyBWoR -->
-          <!-- element will get class pswp__preloader--active when preloader is running -->
-          <div class="pswp__preloader">
-            <div class="pswp__preloader__icn">
-              <div class="pswp__preloader__cut">
-                <div class="pswp__preloader__donut"></div>
-              </div>
+        <!-- Preloader demo https://codepen.io/dimsemenov/pen/yyBWoR -->
+        <!-- element will get class pswp__preloader--active when preloader is running -->
+        <div class="pswp__preloader">
+          <div class="pswp__preloader__icn">
+            <div class="pswp__preloader__cut">
+              <div class="pswp__preloader__donut"></div>
             </div>
           </div>
         </div>
+      </div>
 
-        <!-- <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+      <!-- <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
           <div class="pswp__share-tooltip"></div>
         </div> -->
 
-        <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
-        </button>
+      <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+      </button>
 
-        <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
-        </button>
+      <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+      </button>
 
-        <div class="pswp__caption">
-          <div class="pswp__caption__center"></div>
-        </div>
-
+      <div class="pswp__caption">
+        <div class="pswp__caption__center"></div>
       </div>
 
     </div>
 
   </div>
+
+</div>
+
 
   <!-- Needed scripts for Firebase -->
   <script src="/__/firebase/6.0.2/firebase-app.js"></script>

@@ -14,7 +14,7 @@
 
     gtag('config', 'UA-143173460-1');
   </script> -->
-  <title>Nick Crews</title>
+  <title>{% block title %}Nick Crews{% endblock %}</title>
 
 
   <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
@@ -41,16 +41,7 @@
       <li><a class="nav-bar-item" href="/">Contact</a></li>
     </ul>
   </header>
-  
-<div class="page">
-  <div class="home">
-    <img src="assets/imgs/kotzebue_plains.jpeg">
-    <div class="fade"></div>
-  </div>
-  <h5>Arctic patchwork near Kotzebue, Alaska</h5>
-  <h3>this site is under construction</h3>
-</div>
-
+  {% block content %}{% endblock %}
 
   <!-- Needed scripts for Firebase -->
   <script src="/__/firebase/6.0.2/firebase-app.js"></script>
