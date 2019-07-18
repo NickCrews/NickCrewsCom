@@ -5,7 +5,7 @@
 *.thumb
 
 # ignore generated content
-build/*
+build/
 *.pyc
 
 
