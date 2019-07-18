@@ -1,46 +1,28 @@
-// @photo: object with src, title, description fields
-function addPhotoToDOM(photo) {
-  $('.photo-grid').append(
-    $('<div>', {
-      class: 'photo-grid-item'
-    }).prepend(
-      $('<a>', {
-        href: 'resources/images/photos/' + photo.full,
-      }).prepend(
-        $('<img>', {
-          id: photo.title,
-          src: 'resources/images/photos/' + photo.thumb,
-          alt: photo.thumb,
-        })
-      )
-    )
-  )
-}
-
 function getThumbBounds(index) {
-  // get the proper grid item, then find the contained image.
-  var grid_item = $('.photo-grid-item')[index];
-  var thumbnail = $(grid_item).find('a').find('img')[0];
+  // Get the proper grid item
+  let tabindex = index+1;
+  let selector = '.grid-item[tabindex="'+tabindex+'"]'
+  let grid_item = $(selector);
 
-  var pageYScroll = window.pageYOffset || document.documentElement.scrollTop;
-  // optionally get horizontal scroll
+  // Then find the contained image
+  let thumbnail = $(grid_item).find('img')[0];
 
   // get position of element relative to viewport
-  var rect = thumbnail.getBoundingClientRect();
+  let pageYScroll = window.pageYOffset || document.documentElement.scrollTop;
+  let rect = thumbnail.getBoundingClientRect();
   return {
     x: rect.left,
     y: rect.top + pageYScroll,
     w: rect.width
   };
-
 }
 
 function buildPhotoSwipeItems(photos_info_data) {
   let ps_items = [];
   photos_info_data.forEach(photo => {
     ps_items.push({
-      src: 'resources/images/photos/' + photo.full,
-      msrc: 'resources/images/photos/' + photo.thumb,
+      src: 'assets/img/photos/' + photo.large,
+      msrc: 'assets/img/photos/' + photo.thumb,
       w: photo.large_width,
       h: photo.large_height,
       pid: photo.title,
@@ -48,7 +30,6 @@ function buildPhotoSwipeItems(photos_info_data) {
       author: "Nick Crews"
     });
   });
-  photo_swipe_items = ps_items;
   return ps_items;
 }
 
@@ -60,15 +41,16 @@ function openPhotoSwipe(items, index = 0) {
     bgOpacity: .8,
     // Use the title of the photo (instead of the index) as the URL photo ID
     galleryPIDs: true,
+    // Time to hide the swipe controls in msec
     timeToIdle: 2000,
     shareEl: false,
     getThumbBoundsFn: getThumbBounds,
+    // fractional amount of spacing between images when swiping
     spacing: .05
   };
 
   var gallery = new PhotoSwipe(pswpElement, PhotoSwipeUI_Default, items, options);
   gallery.init();
-  console.log(gallery.getZoomLevel());
 }
 
 function photo_clicked(event) {
@@ -76,37 +58,19 @@ function photo_clicked(event) {
   // If someone really wants to, or doesn't have javascript, they
   // can use the link to view the phot full size.
   event.preventDefault();
-  // which photo-grid-item this is, zero indexed
-  const index = $(this).index();
-  openPhotoSwipe(buildPhotoSwipeItems(event.data), index);
+  // Which photo-grid-item this is, zero indexed.
+  const ps_items = event.data;
+  const index = parseInt($(this).attr("tabindex")) - 1;
+  openPhotoSwipe(ps_items, index);
 }
 
-function loadPhotos(photoJsonPath) {
-  // $grid = $('.photo-grid').masonry({
-  //   // options
-  //   itemSelector: ".photo-grid-item",
-  //   columnWidth: ".photo-grid-sizer",
-  //   percentPosition: true
-  // });
-
-  let photo_data_loading = fetch(photoJsonPath).then(response => response.json());
-
-  photo_data_loading.then(function(photos_data) {
-    photos_data.forEach(photo => {
-      addPhotoToDOM(photo);
-    });
-    $('.photo-grid-item').click(photos_data, photo_clicked);
-    console.log("reloadGrid");
-    reloadGrid();
-  }).catch(error => console.log(error));
-}
-
-function reloadGrid() {
-  // $grid.masonry('layout');
-
-  $('.photo-grid').masonry({
-    // options
-    itemSelector: '.photo-grid-item',
-    percentPosition: false
-  });
+function initPhotoSwipe() {
+  // Get the json attached to each DOM element in the "data-photos" attribute.
+  let photos_info = $('.grid-item').map(function() {
+    return $(this).data("photos");
+  }).get();
+  // Convert this into a list of item data for photoswipe.
+  const ps_items = buildPhotoSwipeItems(photos_info);
+  // Register callback.
+  $('.grid-item').click(ps_items, photo_clicked);
 }
