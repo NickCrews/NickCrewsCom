@@ -3,6 +3,8 @@ import json as jsonlib
 import os
 import shutil
 
+import addphotos
+
 
 def clean_build(dir):
     if os.path.exists(dir):
@@ -11,7 +13,9 @@ def clean_build(dir):
 
 def main():
     out_dir = '../build'
-    clean_build(out_dir)
+    # clean_build(out_dir)
+
+    # addphotos.main()
 
     with open('../config/photos_generated.json') as photos_handle:
         photos_info = jsonlib.load(photos_handle)
