@@ -43,6 +43,8 @@ function openPhotoSwipe(items, index = 0) {
     galleryPIDs: true,
     // Time to hide the swipe controls in msec
     timeToIdle: 2000,
+    // Disable some of the buttons in the UI
+    counterEl: false,
     shareEl: false,
     getThumbBoundsFn: getThumbBounds,
     // fractional amount of spacing between images when swiping
