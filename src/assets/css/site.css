@@ -92,30 +92,3 @@ body {
 .nc-header .title {
   border-right: 1px solid lightgray;
 }
-
-/* photo grid styling  */
-
-/* .photo-grid {
-  width: 100%;
-  padding: 0;
-  margin: 0;
-} */
-
-/* .photo-grid-item {
-  width: 20%;
-  margin: 0px;
-  float: left;
-} */
-
-/* .photo-grid-item a {
-  margin-top: 10px;
-  margin-bottom: 0px;
-  margin-left: 5px;
-  margin-right: 5px;
-  display: block;
-}
-.photo-grid-item a img{
-  margin: 0;
-  width: 100%;
-  display: block;
-} */
