@@ -3,7 +3,11 @@
 # Ignore any generated different-sized images
 *.large
 *.thumb
+
+# ignore generated content
 build/*
+*.pyc
+
 
 # ========================= Firebase stuff ========================
 
