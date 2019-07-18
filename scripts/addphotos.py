@@ -45,7 +45,7 @@ def main(args):
                         help='Input directory')
 
     parser.add_argument('-o', '--outdir', metavar='o', type=str,
-                        default='/resources/images/photos', help='Output directory')
+                        default='../build/assets/img/photos', help='Output directory')
 
     parser.add_argument('-t', '--thumb_size', type=int,
                         default=LARGE_SIZE, help='Desired max dimension of thumbnails')
