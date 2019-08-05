@@ -37,6 +37,13 @@
   .grid-col--3 { display: block; } /* show column 3 */
 }
 
+/* Add gutter to entire grid so that exterior side
+margins are equally wide as interior vertical gutters */
+.photo-grid {
+  margin-right: 5px;
+  margin-left: 5px
+}
+
 a.grid-item {
   margin-left: 7px;
   margin-right: 7px;
