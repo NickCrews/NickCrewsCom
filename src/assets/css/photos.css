@@ -50,6 +50,7 @@ a.grid-item {
   margin-top: 14px;
   display: block;
   transition: all .2s ease-in-out;
+  position: relative;
 }
 
 a.grid-item img{
@@ -61,4 +62,20 @@ a.grid-item img{
 a.grid-item:hover {
   transform: scale(1.01);
   opacity:0.9;
+}
+
+a.grid-item h3 {
+  background-image: linear-gradient( rgba(0,0,0,0), rgba(0,0,0,.7));
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  opacity:0;
+  transition: all .2s ease-in-out;
+  color: rgba(255,255,255,.9);
+  text-overflow: ellipsis;
+}
+
+a.grid-item:hover h3 {
+    opacity: 1;
 }
