@@ -49,16 +49,16 @@ a.grid-item {
   margin-right: 7px;
   margin-top: 14px;
   display: block;
+  transition: all .2s ease-in-out;
 }
 
 a.grid-item img{
   margin: 0;
   width: 100%;
   display: block;
-  transition: all .2s ease-in-out;
 }
 
-a.grid-item img:hover {
+a.grid-item:hover {
   transform: scale(1.01);
   opacity:0.9;
 }
