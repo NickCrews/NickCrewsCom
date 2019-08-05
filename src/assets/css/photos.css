@@ -38,9 +38,9 @@
 }
 
 a.grid-item {
-  margin-left: 5px;
-  margin-right: 5px;
-  margin-top: 10px;
+  margin-left: 7px;
+  margin-right: 7px;
+  margin-top: 14px;
   display: block;
 }
 
@@ -48,4 +48,10 @@ a.grid-item img{
   margin: 0;
   width: 100%;
   display: block;
+  transition: all .2s ease-in-out;
+}
+
+a.grid-item img:hover{
+  transform: scale(1.01);
+  opacity:0.9;
 }
