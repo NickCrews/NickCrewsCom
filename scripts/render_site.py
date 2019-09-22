@@ -1,3 +1,5 @@
+#!/usr/bin/python3
+
 import staticjinja as sj
 import json as jsonlib
 import os
