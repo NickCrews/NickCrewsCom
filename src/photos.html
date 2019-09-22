@@ -9,7 +9,7 @@
       <div class="grid-col grid-col--3"></div>
       <div class="grid-col grid-col--4"></div>
       {% for item in photos_info %}
-      <a class="grid-item" href="assets/img/photos/{{ item.full }}" tabindex="{{ loop.index }}" data-photos='{{ item.all_info_json }}''>
+      <a class="grid-item" href="assets/img/photos/{{ item.full }}" tabindex="{{ loop.index }}" data-photos='{{ item.all_info_json }}'>
         <img id="{{ item.full }}" src="assets/img/photos/{{ item.thumb }}" alt="{{ item.thumb }}">
         <h3>{{item.title}}</h3>
       </a>
