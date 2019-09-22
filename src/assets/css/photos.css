@@ -39,7 +39,7 @@
 
 /* Add gutter to entire grid so that exterior side
 margins are equally wide as interior vertical gutters */
-.photo-grid {
+.guttered-photo-grid {
   margin-right: 5px;
   margin-left: 5px
 }
