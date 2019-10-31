@@ -74,5 +74,5 @@ function initPhotoSwipe() {
   // Convert this into a list of item data for photoswipe.
   const ps_items = buildPhotoSwipeItems(photos_info);
   // Register callback.
-  $('.grid-item').click(ps_items, photo_clicked);
+  $('.item-content').click(ps_items, photo_clicked);
 }
