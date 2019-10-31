@@ -13,13 +13,7 @@
   flex-grow: 1;
 }
 
-/* Using floats */
-/* .grid-col {
-  float: left;
-  width: 50%;
-} */
-
-/* 2 columns by default, hide columns 2 & 3 */
+/* 1 column by default, hide columns 1, 2, 3 */
 .grid-col--1, .grid-col--2, .grid-col--3 { display: none }
 
 /* 1 columns at medium size */
@@ -44,7 +38,7 @@ margins are equally wide as interior vertical gutters */
   margin-left: 5px
 }
 
-a.grid-item {
+.grid-item {
   margin-left: 7px;
   margin-right: 7px;
   margin-top: 14px;
@@ -59,23 +53,23 @@ a.grid-item img{
   display: block;
 }
 
-a.grid-item:hover {
+.grid-item:hover {
   transform: scale(1.01);
   opacity:0.9;
 }
 
-a.grid-item h3 {
+.grid-item h3 {
   background-image: linear-gradient( rgba(0,0,0,0), rgba(0,0,0,.7));
   position: absolute;
   left: 0;
   bottom: 0;
   width: 100%;
-  opacity:0;
+  opacity: 0;
   transition: all .2s ease-in-out;
   color: rgba(255,255,255,.9);
   text-overflow: ellipsis;
 }
 
-a.grid-item:hover h3 {
+.grid-item:hover h3 {
     opacity: 1;
 }
