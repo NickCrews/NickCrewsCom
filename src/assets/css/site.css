@@ -28,6 +28,17 @@ body {
   background: whitesmoke;
 }
 
+p {
+  font-size: 18px;
+}
+
+.post {
+  padding: 20px;
+  margin: 20px auto;
+  max-width: 800px;
+  background: white;
+}
+
 .home .fade
 {
   position: absolute;
