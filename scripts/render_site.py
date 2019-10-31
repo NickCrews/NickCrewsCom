@@ -19,9 +19,7 @@ def clean_build(dir):
 class MySite(sj.Site):
 
     def is_ignored(self, filename):
-        print("checking if {} is ignored".format(filename))
         res = bool(re.match('.*\.jpg', filename))
-        print(res)
         return res
 
 
