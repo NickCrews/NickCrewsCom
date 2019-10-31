@@ -20,6 +20,13 @@ html {
   box-sizing: inherit;
 }
 
+img {
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  display: block;
+}
+
 body {
   width: 100%;
   height: 100%;
