@@ -13,11 +13,13 @@
       <div class="grid-col grid-col--4"></div>
     </div>
     {% for item in photos_info %}
-    <a class="grid-item" href="assets/img/photos/{{ item.full }}" tabindex="{{ loop.index }}" data-photos='{{ item.all_info_json }}'>
-      <div class="photo-placeholder {{loop.index}}" style="padding-bottom: {{ item.aspect_ratio }}%;"></div>
-      <img id="{{ item.full }}" src="assets/img/photos/{{ item.thumb }}" alt="{{ item.thumb }}">
-      <h3>{{loop.index}}</h3>
-    </a>
+    <div class="grid-item" data-photos='{{ item.all_info_json }}'>
+      <a class="item-content" href="assets/img/photos/{{ item.full }}" tabindex="{{ loop.index }}">
+        <div class="item-img-placeholder {{loop.index}}" style="padding-bottom: {{ item.aspect_ratio }}%;"></div>
+        <img class="item-img" id="{{ item.full }}" src="assets/img/photos/{{ item.thumb }}" alt="{{ item.thumb }}">
+        <h3 class="item-hdr">{{loop.index}}</h3>
+      </a>
+    </div>
     {% endfor %}
   </div>
 </div>

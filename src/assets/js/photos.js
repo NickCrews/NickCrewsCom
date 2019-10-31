@@ -1,11 +1,11 @@
 function getThumbBounds(index) {
   // Get the proper grid item
   let tabindex = index+1;
-  let selector = '.grid-item[tabindex="'+tabindex+'"]'
+  let selector = '.item-content[tabindex="'+tabindex+'"]'
   let grid_item = $(selector);
 
   // Then find the contained image
-  let thumbnail = $(grid_item).find('img')[0];
+  let thumbnail = $(grid_item).find('.item-img')[0];
 
   // get position of element relative to viewport
   let pageYScroll = window.pageYOffset || document.documentElement.scrollTop;
