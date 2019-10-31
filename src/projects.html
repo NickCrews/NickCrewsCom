@@ -1,0 +1,12 @@
+{% extends "_base.html" %}
+{% block content %}
+<div id="header-placeholder"></div>
+</div>
+<div class="page">
+  {% for proj in project_info %}
+  <a href="{{ proj.homepage }}">
+    <h3>{{proj.name}}</h3>
+  </a>
+  {% endfor %}
+</div>
+{% endblock content %}

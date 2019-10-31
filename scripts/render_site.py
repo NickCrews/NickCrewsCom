@@ -83,6 +83,25 @@ def render_photo(env, template, **kwargs):
 
 # env.filters['upperstring'] = upperstring
 
+def get_projects(src_dir):
+    projects_dir = os.path.join(src_dir, 'projects')
+    for proj_name in os.listdir(projects_dir):
+        proj_path = os.path.join(projects_dir, proj_name)
+        if not os.path.isdir(proj_path):
+            continue
+        proj = {}
+        proj['name'] = proj_name
+        proj['posts'] = []
+        for entry_name in os.listdir(proj_path):
+            entry_path = os.path.join(proj_path, entry_name)
+            if not os.path.isfile(entry_path):
+                continue
+            post_title, _ = entry_name.split(".")
+            post_path = 'projects/' + proj_name + '/' + post_title
+            proj['posts'].append(post_path)
+        proj['homepage'] = proj['posts'][0]
+        yield proj
+
 
 def main():
     out_dir = '../build'
@@ -90,11 +109,14 @@ def main():
 
     # addphotos.main()
 
+    project_info = get_projects('../src/')
+
     # render_md('../src/projects/force_sensor/theory.md')
 
     with open('../config/photos_generated.json') as photos_handle:
         photos_info = jsonlib.load(photos_handle)
-        contexts = dict(photos_info=photos_info)
+        contexts = dict(photos_info=photos_info,
+                        project_info=project_info)
         site_args = dict(searchpath='../src/',
                          outpath=out_dir, env_globals=contexts,
                          staticpaths=["assets/"],
