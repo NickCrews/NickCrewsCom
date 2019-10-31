@@ -39,9 +39,16 @@ def process_photo(args, basename):
     large_path = os.path.join(args.outdir, basename + '.large')
     large.save(large_path, "JPEG")
 
-    info = dict(full=basename, width=full_img.width, height=full_img.height,
-                thumb=basename + '.thumb', thumb_width=thumb.width, thumb_height=thumb.height,
-                large=basename + '.large', large_width=large.width, large_height=large.height,
+    info = dict(full=basename,
+                width=full_img.width,
+                height=full_img.height,
+                aspect_ratio=(full_img.height / full_img.width) * 100,
+                thumb=basename + '.thumb',
+                thumb_width=thumb.width,
+                thumb_height=thumb.height,
+                large=basename + '.large',
+                large_width=large.width,
+                large_height=large.height,
                 title=basename)
     info['all_info_json'] = jsonlib.dumps(info)
     return info

@@ -1,6 +1,7 @@
 [
     {
-        "all_info_json": "{\"full\": \"DSC03620.jpg\", \"width\": 5456, \"height\": 3632, \"thumb\": \"DSC03620.jpg.thumb\", \"thumb_width\": 500, \"thumb_height\": 332, \"large\": \"DSC03620.jpg.large\", \"large_width\": 1500, \"large_height\": 998, \"title\": \"DSC03620.jpg\"}",
+        "all_info_json": "{\"full\": \"DSC03620.jpg\", \"width\": 5456, \"height\": 3632, \"aspect_ratio\": 66.56891495601172, \"thumb\": \"DSC03620.jpg.thumb\", \"thumb_width\": 500, \"thumb_height\": 332, \"large\": \"DSC03620.jpg.large\", \"large_width\": 1500, \"large_height\": 998, \"title\": \"DSC03620.jpg\"}",
+        "aspect_ratio": 66.56891495601172,
         "full": "DSC03620.jpg",
         "height": 3632,
         "large": "DSC03620.jpg.large",
@@ -13,7 +14,8 @@
         "width": 5456
     },
     {
-        "all_info_json": "{\"full\": \"DSC02701.jpg\", \"width\": 4192, \"height\": 2791, \"thumb\": \"DSC02701.jpg.thumb\", \"thumb_width\": 500, \"thumb_height\": 332, \"large\": \"DSC02701.jpg.large\", \"large_width\": 1500, \"large_height\": 998, \"title\": \"DSC02701.jpg\"}",
+        "all_info_json": "{\"full\": \"DSC02701.jpg\", \"width\": 4192, \"height\": 2791, \"aspect_ratio\": 66.57919847328245, \"thumb\": \"DSC02701.jpg.thumb\", \"thumb_width\": 500, \"thumb_height\": 332, \"large\": \"DSC02701.jpg.large\", \"large_width\": 1500, \"large_height\": 998, \"title\": \"DSC02701.jpg\"}",
+        "aspect_ratio": 66.57919847328245,
         "full": "DSC02701.jpg",
         "height": 2791,
         "large": "DSC02701.jpg.large",
@@ -26,7 +28,8 @@
         "width": 4192
     },
     {
-        "all_info_json": "{\"full\": \"IMG_3523.jpg\", \"width\": 2448, \"height\": 3264, \"thumb\": \"IMG_3523.jpg.thumb\", \"thumb_width\": 375, \"thumb_height\": 500, \"large\": \"IMG_3523.jpg.large\", \"large_width\": 1125, \"large_height\": 1500, \"title\": \"IMG_3523.jpg\"}",
+        "all_info_json": "{\"full\": \"IMG_3523.jpg\", \"width\": 2448, \"height\": 3264, \"aspect_ratio\": 133.33333333333331, \"thumb\": \"IMG_3523.jpg.thumb\", \"thumb_width\": 375, \"thumb_height\": 500, \"large\": \"IMG_3523.jpg.large\", \"large_width\": 1125, \"large_height\": 1500, \"title\": \"IMG_3523.jpg\"}",
+        "aspect_ratio": 133.33333333333331,
         "full": "IMG_3523.jpg",
         "height": 3264,
         "large": "IMG_3523.jpg.large",
@@ -39,7 +42,8 @@
         "width": 2448
     },
     {
-        "all_info_json": "{\"full\": \"DSC03394.jpg\", \"width\": 5456, \"height\": 3632, \"thumb\": \"DSC03394.jpg.thumb\", \"thumb_width\": 500, \"thumb_height\": 332, \"large\": \"DSC03394.jpg.large\", \"large_width\": 1500, \"large_height\": 998, \"title\": \"DSC03394.jpg\"}",
+        "all_info_json": "{\"full\": \"DSC03394.jpg\", \"width\": 5456, \"height\": 3632, \"aspect_ratio\": 66.56891495601172, \"thumb\": \"DSC03394.jpg.thumb\", \"thumb_width\": 500, \"thumb_height\": 332, \"large\": \"DSC03394.jpg.large\", \"large_width\": 1500, \"large_height\": 998, \"title\": \"DSC03394.jpg\"}",
+        "aspect_ratio": 66.56891495601172,
         "full": "DSC03394.jpg",
         "height": 3632,
         "large": "DSC03394.jpg.large",
@@ -52,7 +56,8 @@
         "width": 5456
     },
     {
-        "all_info_json": "{\"full\": \"DSC01795.jpg\", \"width\": 5456, \"height\": 3632, \"thumb\": \"DSC01795.jpg.thumb\", \"thumb_width\": 500, \"thumb_height\": 332, \"large\": \"DSC01795.jpg.large\", \"large_width\": 1500, \"large_height\": 998, \"title\": \"DSC01795.jpg\"}",
+        "all_info_json": "{\"full\": \"DSC01795.jpg\", \"width\": 5456, \"height\": 3632, \"aspect_ratio\": 66.56891495601172, \"thumb\": \"DSC01795.jpg.thumb\", \"thumb_width\": 500, \"thumb_height\": 332, \"large\": \"DSC01795.jpg.large\", \"large_width\": 1500, \"large_height\": 998, \"title\": \"DSC01795.jpg\"}",
+        "aspect_ratio": 66.56891495601172,
         "full": "DSC01795.jpg",
         "height": 3632,
         "large": "DSC01795.jpg.large",
@@ -65,7 +70,8 @@
         "width": 5456
     },
     {
-        "all_info_json": "{\"full\": \"DSC02261.jpg\", \"width\": 5456, \"height\": 3632, \"thumb\": \"DSC02261.jpg.thumb\", \"thumb_width\": 500, \"thumb_height\": 332, \"large\": \"DSC02261.jpg.large\", \"large_width\": 1500, \"large_height\": 998, \"title\": \"DSC02261.jpg\"}",
+        "all_info_json": "{\"full\": \"DSC02261.jpg\", \"width\": 5456, \"height\": 3632, \"aspect_ratio\": 66.56891495601172, \"thumb\": \"DSC02261.jpg.thumb\", \"thumb_width\": 500, \"thumb_height\": 332, \"large\": \"DSC02261.jpg.large\", \"large_width\": 1500, \"large_height\": 998, \"title\": \"DSC02261.jpg\"}",
+        "aspect_ratio": 66.56891495601172,
         "full": "DSC02261.jpg",
         "height": 3632,
         "large": "DSC02261.jpg.large",
@@ -78,7 +84,8 @@
         "width": 5456
     },
     {
-        "all_info_json": "{\"full\": \"DSC03341.jpg\", \"width\": 5055, \"height\": 3314, \"thumb\": \"DSC03341.jpg.thumb\", \"thumb_width\": 500, \"thumb_height\": 327, \"large\": \"DSC03341.jpg.large\", \"large_width\": 1500, \"large_height\": 983, \"title\": \"DSC03341.jpg\"}",
+        "all_info_json": "{\"full\": \"DSC03341.jpg\", \"width\": 5055, \"height\": 3314, \"aspect_ratio\": 65.55885262116716, \"thumb\": \"DSC03341.jpg.thumb\", \"thumb_width\": 500, \"thumb_height\": 327, \"large\": \"DSC03341.jpg.large\", \"large_width\": 1500, \"large_height\": 983, \"title\": \"DSC03341.jpg\"}",
+        "aspect_ratio": 65.55885262116716,
         "full": "DSC03341.jpg",
         "height": 3314,
         "large": "DSC03341.jpg.large",
@@ -91,7 +98,8 @@
         "width": 5055
     },
     {
-        "all_info_json": "{\"full\": \"DSC01594.jpg\", \"width\": 5456, \"height\": 3632, \"thumb\": \"DSC01594.jpg.thumb\", \"thumb_width\": 500, \"thumb_height\": 332, \"large\": \"DSC01594.jpg.large\", \"large_width\": 1500, \"large_height\": 998, \"title\": \"DSC01594.jpg\"}",
+        "all_info_json": "{\"full\": \"DSC01594.jpg\", \"width\": 5456, \"height\": 3632, \"aspect_ratio\": 66.56891495601172, \"thumb\": \"DSC01594.jpg.thumb\", \"thumb_width\": 500, \"thumb_height\": 332, \"large\": \"DSC01594.jpg.large\", \"large_width\": 1500, \"large_height\": 998, \"title\": \"DSC01594.jpg\"}",
+        "aspect_ratio": 66.56891495601172,
         "full": "DSC01594.jpg",
         "height": 3632,
         "large": "DSC01594.jpg.large",
@@ -104,7 +112,8 @@
         "width": 5456
     },
     {
-        "all_info_json": "{\"full\": \"DSC03397.jpg\", \"width\": 5456, \"height\": 3632, \"thumb\": \"DSC03397.jpg.thumb\", \"thumb_width\": 500, \"thumb_height\": 332, \"large\": \"DSC03397.jpg.large\", \"large_width\": 1500, \"large_height\": 998, \"title\": \"DSC03397.jpg\"}",
+        "all_info_json": "{\"full\": \"DSC03397.jpg\", \"width\": 5456, \"height\": 3632, \"aspect_ratio\": 66.56891495601172, \"thumb\": \"DSC03397.jpg.thumb\", \"thumb_width\": 500, \"thumb_height\": 332, \"large\": \"DSC03397.jpg.large\", \"large_width\": 1500, \"large_height\": 998, \"title\": \"DSC03397.jpg\"}",
+        "aspect_ratio": 66.56891495601172,
         "full": "DSC03397.jpg",
         "height": 3632,
         "large": "DSC03397.jpg.large",
@@ -117,7 +126,8 @@
         "width": 5456
     },
     {
-        "all_info_json": "{\"full\": \"IMG_3294.jpg\", \"width\": 3264, \"height\": 2448, \"thumb\": \"IMG_3294.jpg.thumb\", \"thumb_width\": 500, \"thumb_height\": 375, \"large\": \"IMG_3294.jpg.large\", \"large_width\": 1500, \"large_height\": 1125, \"title\": \"IMG_3294.jpg\"}",
+        "all_info_json": "{\"full\": \"IMG_3294.jpg\", \"width\": 3264, \"height\": 2448, \"aspect_ratio\": 75.0, \"thumb\": \"IMG_3294.jpg.thumb\", \"thumb_width\": 500, \"thumb_height\": 375, \"large\": \"IMG_3294.jpg.large\", \"large_width\": 1500, \"large_height\": 1125, \"title\": \"IMG_3294.jpg\"}",
+        "aspect_ratio": 75.0,
         "full": "IMG_3294.jpg",
         "height": 2448,
         "large": "IMG_3294.jpg.large",
@@ -130,7 +140,8 @@
         "width": 3264
     },
     {
-        "all_info_json": "{\"full\": \"DSC00767.jpg\", \"width\": 5456, \"height\": 3632, \"thumb\": \"DSC00767.jpg.thumb\", \"thumb_width\": 500, \"thumb_height\": 332, \"large\": \"DSC00767.jpg.large\", \"large_width\": 1500, \"large_height\": 998, \"title\": \"DSC00767.jpg\"}",
+        "all_info_json": "{\"full\": \"DSC00767.jpg\", \"width\": 5456, \"height\": 3632, \"aspect_ratio\": 66.56891495601172, \"thumb\": \"DSC00767.jpg.thumb\", \"thumb_width\": 500, \"thumb_height\": 332, \"large\": \"DSC00767.jpg.large\", \"large_width\": 1500, \"large_height\": 998, \"title\": \"DSC00767.jpg\"}",
+        "aspect_ratio": 66.56891495601172,
         "full": "DSC00767.jpg",
         "height": 3632,
         "large": "DSC00767.jpg.large",
@@ -143,7 +154,8 @@
         "width": 5456
     },
     {
-        "all_info_json": "{\"full\": \"DSC00957.jpg\", \"width\": 3632, \"height\": 5456, \"thumb\": \"DSC00957.jpg.thumb\", \"thumb_width\": 332, \"thumb_height\": 500, \"large\": \"DSC00957.jpg.large\", \"large_width\": 998, \"large_height\": 1500, \"title\": \"DSC00957.jpg\"}",
+        "all_info_json": "{\"full\": \"DSC00957.jpg\", \"width\": 3632, \"height\": 5456, \"aspect_ratio\": 150.2202643171806, \"thumb\": \"DSC00957.jpg.thumb\", \"thumb_width\": 332, \"thumb_height\": 500, \"large\": \"DSC00957.jpg.large\", \"large_width\": 998, \"large_height\": 1500, \"title\": \"DSC00957.jpg\"}",
+        "aspect_ratio": 150.2202643171806,
         "full": "DSC00957.jpg",
         "height": 5456,
         "large": "DSC00957.jpg.large",
@@ -156,7 +168,8 @@
         "width": 3632
     },
     {
-        "all_info_json": "{\"full\": \"DSC03251.jpg\", \"width\": 2197, \"height\": 3030, \"thumb\": \"DSC03251.jpg.thumb\", \"thumb_width\": 362, \"thumb_height\": 500, \"large\": \"DSC03251.jpg.large\", \"large_width\": 1088, \"large_height\": 1500, \"title\": \"DSC03251.jpg\"}",
+        "all_info_json": "{\"full\": \"DSC03251.jpg\", \"width\": 2197, \"height\": 3030, \"aspect_ratio\": 137.91533909877106, \"thumb\": \"DSC03251.jpg.thumb\", \"thumb_width\": 362, \"thumb_height\": 500, \"large\": \"DSC03251.jpg.large\", \"large_width\": 1088, \"large_height\": 1500, \"title\": \"DSC03251.jpg\"}",
+        "aspect_ratio": 137.91533909877106,
         "full": "DSC03251.jpg",
         "height": 3030,
         "large": "DSC03251.jpg.large",
@@ -169,7 +182,8 @@
         "width": 2197
     },
     {
-        "all_info_json": "{\"full\": \"DSC03484.jpg\", \"width\": 5456, \"height\": 3632, \"thumb\": \"DSC03484.jpg.thumb\", \"thumb_width\": 500, \"thumb_height\": 332, \"large\": \"DSC03484.jpg.large\", \"large_width\": 1500, \"large_height\": 998, \"title\": \"DSC03484.jpg\"}",
+        "all_info_json": "{\"full\": \"DSC03484.jpg\", \"width\": 5456, \"height\": 3632, \"aspect_ratio\": 66.56891495601172, \"thumb\": \"DSC03484.jpg.thumb\", \"thumb_width\": 500, \"thumb_height\": 332, \"large\": \"DSC03484.jpg.large\", \"large_width\": 1500, \"large_height\": 998, \"title\": \"DSC03484.jpg\"}",
+        "aspect_ratio": 66.56891495601172,
         "full": "DSC03484.jpg",
         "height": 3632,
         "large": "DSC03484.jpg.large",
@@ -182,7 +196,8 @@
         "width": 5456
     },
     {
-        "all_info_json": "{\"full\": \"DSC01455.jpg\", \"width\": 5456, \"height\": 3632, \"thumb\": \"DSC01455.jpg.thumb\", \"thumb_width\": 500, \"thumb_height\": 332, \"large\": \"DSC01455.jpg.large\", \"large_width\": 1500, \"large_height\": 998, \"title\": \"DSC01455.jpg\"}",
+        "all_info_json": "{\"full\": \"DSC01455.jpg\", \"width\": 5456, \"height\": 3632, \"aspect_ratio\": 66.56891495601172, \"thumb\": \"DSC01455.jpg.thumb\", \"thumb_width\": 500, \"thumb_height\": 332, \"large\": \"DSC01455.jpg.large\", \"large_width\": 1500, \"large_height\": 998, \"title\": \"DSC01455.jpg\"}",
+        "aspect_ratio": 66.56891495601172,
         "full": "DSC01455.jpg",
         "height": 3632,
         "large": "DSC01455.jpg.large",
@@ -195,7 +210,8 @@
         "width": 5456
     },
     {
-        "all_info_json": "{\"full\": \"DSC03096.jpg\", \"width\": 3632, \"height\": 5456, \"thumb\": \"DSC03096.jpg.thumb\", \"thumb_width\": 332, \"thumb_height\": 500, \"large\": \"DSC03096.jpg.large\", \"large_width\": 998, \"large_height\": 1500, \"title\": \"DSC03096.jpg\"}",
+        "all_info_json": "{\"full\": \"DSC03096.jpg\", \"width\": 3632, \"height\": 5456, \"aspect_ratio\": 150.2202643171806, \"thumb\": \"DSC03096.jpg.thumb\", \"thumb_width\": 332, \"thumb_height\": 500, \"large\": \"DSC03096.jpg.large\", \"large_width\": 998, \"large_height\": 1500, \"title\": \"DSC03096.jpg\"}",
+        "aspect_ratio": 150.2202643171806,
         "full": "DSC03096.jpg",
         "height": 5456,
         "large": "DSC03096.jpg.large",
@@ -208,7 +224,8 @@
         "width": 3632
     },
     {
-        "all_info_json": "{\"full\": \"DSC01303.jpg\", \"width\": 5456, \"height\": 3632, \"thumb\": \"DSC01303.jpg.thumb\", \"thumb_width\": 500, \"thumb_height\": 332, \"large\": \"DSC01303.jpg.large\", \"large_width\": 1500, \"large_height\": 998, \"title\": \"DSC01303.jpg\"}",
+        "all_info_json": "{\"full\": \"DSC01303.jpg\", \"width\": 5456, \"height\": 3632, \"aspect_ratio\": 66.56891495601172, \"thumb\": \"DSC01303.jpg.thumb\", \"thumb_width\": 500, \"thumb_height\": 332, \"large\": \"DSC01303.jpg.large\", \"large_width\": 1500, \"large_height\": 998, \"title\": \"DSC01303.jpg\"}",
+        "aspect_ratio": 66.56891495601172,
         "full": "DSC01303.jpg",
         "height": 3632,
         "large": "DSC01303.jpg.large",
@@ -221,7 +238,8 @@
         "width": 5456
     },
     {
-        "all_info_json": "{\"full\": \"DSC02811.jpg\", \"width\": 5456, \"height\": 3632, \"thumb\": \"DSC02811.jpg.thumb\", \"thumb_width\": 500, \"thumb_height\": 332, \"large\": \"DSC02811.jpg.large\", \"large_width\": 1500, \"large_height\": 998, \"title\": \"DSC02811.jpg\"}",
+        "all_info_json": "{\"full\": \"DSC02811.jpg\", \"width\": 5456, \"height\": 3632, \"aspect_ratio\": 66.56891495601172, \"thumb\": \"DSC02811.jpg.thumb\", \"thumb_width\": 500, \"thumb_height\": 332, \"large\": \"DSC02811.jpg.large\", \"large_width\": 1500, \"large_height\": 998, \"title\": \"DSC02811.jpg\"}",
+        "aspect_ratio": 66.56891495601172,
         "full": "DSC02811.jpg",
         "height": 3632,
         "large": "DSC02811.jpg.large",
@@ -234,7 +252,8 @@
         "width": 5456
     },
     {
-        "all_info_json": "{\"full\": \"IMG_2867.jpg\", \"width\": 3264, \"height\": 2448, \"thumb\": \"IMG_2867.jpg.thumb\", \"thumb_width\": 500, \"thumb_height\": 375, \"large\": \"IMG_2867.jpg.large\", \"large_width\": 1500, \"large_height\": 1125, \"title\": \"IMG_2867.jpg\"}",
+        "all_info_json": "{\"full\": \"IMG_2867.jpg\", \"width\": 3264, \"height\": 2448, \"aspect_ratio\": 75.0, \"thumb\": \"IMG_2867.jpg.thumb\", \"thumb_width\": 500, \"thumb_height\": 375, \"large\": \"IMG_2867.jpg.large\", \"large_width\": 1500, \"large_height\": 1125, \"title\": \"IMG_2867.jpg\"}",
+        "aspect_ratio": 75.0,
         "full": "IMG_2867.jpg",
         "height": 2448,
         "large": "IMG_2867.jpg.large",
@@ -247,7 +266,8 @@
         "width": 3264
     },
     {
-        "all_info_json": "{\"full\": \"DSC02231.jpg\", \"width\": 5456, \"height\": 3632, \"thumb\": \"DSC02231.jpg.thumb\", \"thumb_width\": 500, \"thumb_height\": 332, \"large\": \"DSC02231.jpg.large\", \"large_width\": 1500, \"large_height\": 998, \"title\": \"DSC02231.jpg\"}",
+        "all_info_json": "{\"full\": \"DSC02231.jpg\", \"width\": 5456, \"height\": 3632, \"aspect_ratio\": 66.56891495601172, \"thumb\": \"DSC02231.jpg.thumb\", \"thumb_width\": 500, \"thumb_height\": 332, \"large\": \"DSC02231.jpg.large\", \"large_width\": 1500, \"large_height\": 998, \"title\": \"DSC02231.jpg\"}",
+        "aspect_ratio": 66.56891495601172,
         "full": "DSC02231.jpg",
         "height": 3632,
         "large": "DSC02231.jpg.large",
@@ -260,7 +280,8 @@
         "width": 5456
     },
     {
-        "all_info_json": "{\"full\": \"IMG_3560.jpg\", \"width\": 2448, \"height\": 3264, \"thumb\": \"IMG_3560.jpg.thumb\", \"thumb_width\": 375, \"thumb_height\": 500, \"large\": \"IMG_3560.jpg.large\", \"large_width\": 1125, \"large_height\": 1500, \"title\": \"IMG_3560.jpg\"}",
+        "all_info_json": "{\"full\": \"IMG_3560.jpg\", \"width\": 2448, \"height\": 3264, \"aspect_ratio\": 133.33333333333331, \"thumb\": \"IMG_3560.jpg.thumb\", \"thumb_width\": 375, \"thumb_height\": 500, \"large\": \"IMG_3560.jpg.large\", \"large_width\": 1125, \"large_height\": 1500, \"title\": \"IMG_3560.jpg\"}",
+        "aspect_ratio": 133.33333333333331,
         "full": "IMG_3560.jpg",
         "height": 3264,
         "large": "IMG_3560.jpg.large",
@@ -273,7 +294,8 @@
         "width": 2448
     },
     {
-        "all_info_json": "{\"full\": \"DSC01328.jpg\", \"width\": 5456, \"height\": 3632, \"thumb\": \"DSC01328.jpg.thumb\", \"thumb_width\": 500, \"thumb_height\": 332, \"large\": \"DSC01328.jpg.large\", \"large_width\": 1500, \"large_height\": 998, \"title\": \"DSC01328.jpg\"}",
+        "all_info_json": "{\"full\": \"DSC01328.jpg\", \"width\": 5456, \"height\": 3632, \"aspect_ratio\": 66.56891495601172, \"thumb\": \"DSC01328.jpg.thumb\", \"thumb_width\": 500, \"thumb_height\": 332, \"large\": \"DSC01328.jpg.large\", \"large_width\": 1500, \"large_height\": 998, \"title\": \"DSC01328.jpg\"}",
+        "aspect_ratio": 66.56891495601172,
         "full": "DSC01328.jpg",
         "height": 3632,
         "large": "DSC01328.jpg.large",
@@ -286,7 +308,8 @@
         "width": 5456
     },
     {
-        "all_info_json": "{\"full\": \"IMG_2723.jpg\", \"width\": 3264, \"height\": 2448, \"thumb\": \"IMG_2723.jpg.thumb\", \"thumb_width\": 500, \"thumb_height\": 375, \"large\": \"IMG_2723.jpg.large\", \"large_width\": 1500, \"large_height\": 1125, \"title\": \"IMG_2723.jpg\"}",
+        "all_info_json": "{\"full\": \"IMG_2723.jpg\", \"width\": 3264, \"height\": 2448, \"aspect_ratio\": 75.0, \"thumb\": \"IMG_2723.jpg.thumb\", \"thumb_width\": 500, \"thumb_height\": 375, \"large\": \"IMG_2723.jpg.large\", \"large_width\": 1500, \"large_height\": 1125, \"title\": \"IMG_2723.jpg\"}",
+        "aspect_ratio": 75.0,
         "full": "IMG_2723.jpg",
         "height": 2448,
         "large": "IMG_2723.jpg.large",
@@ -299,7 +322,8 @@
         "width": 3264
     },
     {
-        "all_info_json": "{\"full\": \"DSC02368.jpg\", \"width\": 3769, \"height\": 2194, \"thumb\": \"DSC02368.jpg.thumb\", \"thumb_width\": 500, \"thumb_height\": 291, \"large\": \"DSC02368.jpg.large\", \"large_width\": 1500, \"large_height\": 873, \"title\": \"DSC02368.jpg\"}",
+        "all_info_json": "{\"full\": \"DSC02368.jpg\", \"width\": 3769, \"height\": 2194, \"aspect_ratio\": 58.21172724860706, \"thumb\": \"DSC02368.jpg.thumb\", \"thumb_width\": 500, \"thumb_height\": 291, \"large\": \"DSC02368.jpg.large\", \"large_width\": 1500, \"large_height\": 873, \"title\": \"DSC02368.jpg\"}",
+        "aspect_ratio": 58.21172724860706,
         "full": "DSC02368.jpg",
         "height": 2194,
         "large": "DSC02368.jpg.large",
@@ -312,7 +336,8 @@
         "width": 3769
     },
     {
-        "all_info_json": "{\"full\": \"DSC02194.jpg\", \"width\": 5456, \"height\": 3480, \"thumb\": \"DSC02194.jpg.thumb\", \"thumb_width\": 500, \"thumb_height\": 318, \"large\": \"DSC02194.jpg.large\", \"large_width\": 1500, \"large_height\": 956, \"title\": \"DSC02194.jpg\"}",
+        "all_info_json": "{\"full\": \"DSC02194.jpg\", \"width\": 5456, \"height\": 3480, \"aspect_ratio\": 63.78299120234604, \"thumb\": \"DSC02194.jpg.thumb\", \"thumb_width\": 500, \"thumb_height\": 318, \"large\": \"DSC02194.jpg.large\", \"large_width\": 1500, \"large_height\": 956, \"title\": \"DSC02194.jpg\"}",
+        "aspect_ratio": 63.78299120234604,
         "full": "DSC02194.jpg",
         "height": 3480,
         "large": "DSC02194.jpg.large",
@@ -325,7 +350,8 @@
         "width": 5456
     },
     {
-        "all_info_json": "{\"full\": \"IMG_2875.jpg\", \"width\": 2448, \"height\": 3264, \"thumb\": \"IMG_2875.jpg.thumb\", \"thumb_width\": 375, \"thumb_height\": 500, \"large\": \"IMG_2875.jpg.large\", \"large_width\": 1125, \"large_height\": 1500, \"title\": \"IMG_2875.jpg\"}",
+        "all_info_json": "{\"full\": \"IMG_2875.jpg\", \"width\": 2448, \"height\": 3264, \"aspect_ratio\": 133.33333333333331, \"thumb\": \"IMG_2875.jpg.thumb\", \"thumb_width\": 375, \"thumb_height\": 500, \"large\": \"IMG_2875.jpg.large\", \"large_width\": 1125, \"large_height\": 1500, \"title\": \"IMG_2875.jpg\"}",
+        "aspect_ratio": 133.33333333333331,
         "full": "IMG_2875.jpg",
         "height": 3264,
         "large": "IMG_2875.jpg.large",
@@ -338,7 +364,8 @@
         "width": 2448
     },
     {
-        "all_info_json": "{\"full\": \"IMG_2863.jpg\", \"width\": 3264, \"height\": 2448, \"thumb\": \"IMG_2863.jpg.thumb\", \"thumb_width\": 500, \"thumb_height\": 375, \"large\": \"IMG_2863.jpg.large\", \"large_width\": 1500, \"large_height\": 1125, \"title\": \"IMG_2863.jpg\"}",
+        "all_info_json": "{\"full\": \"IMG_2863.jpg\", \"width\": 3264, \"height\": 2448, \"aspect_ratio\": 75.0, \"thumb\": \"IMG_2863.jpg.thumb\", \"thumb_width\": 500, \"thumb_height\": 375, \"large\": \"IMG_2863.jpg.large\", \"large_width\": 1500, \"large_height\": 1125, \"title\": \"IMG_2863.jpg\"}",
+        "aspect_ratio": 75.0,
         "full": "IMG_2863.jpg",
         "height": 2448,
         "large": "IMG_2863.jpg.large",
@@ -351,7 +378,8 @@
         "width": 3264
     },
     {
-        "all_info_json": "{\"full\": \"DSC03620 (1).jpg\", \"width\": 2037, \"height\": 1015, \"thumb\": \"DSC03620 (1).jpg.thumb\", \"thumb_width\": 500, \"thumb_height\": 249, \"large\": \"DSC03620 (1).jpg.large\", \"large_width\": 1500, \"large_height\": 747, \"title\": \"DSC03620 (1).jpg\"}",
+        "all_info_json": "{\"full\": \"DSC03620 (1).jpg\", \"width\": 2037, \"height\": 1015, \"aspect_ratio\": 49.828178694158076, \"thumb\": \"DSC03620 (1).jpg.thumb\", \"thumb_width\": 500, \"thumb_height\": 249, \"large\": \"DSC03620 (1).jpg.large\", \"large_width\": 1500, \"large_height\": 747, \"title\": \"DSC03620 (1).jpg\"}",
+        "aspect_ratio": 49.828178694158076,
         "full": "DSC03620 (1).jpg",
         "height": 1015,
         "large": "DSC03620 (1).jpg.large",
@@ -364,7 +392,8 @@
         "width": 2037
     },
     {
-        "all_info_json": "{\"full\": \"38848136_2332160076810727_5301189609881862144_o.jpg\", \"width\": 1944, \"height\": 1458, \"thumb\": \"38848136_2332160076810727_5301189609881862144_o.jpg.thumb\", \"thumb_width\": 500, \"thumb_height\": 375, \"large\": \"38848136_2332160076810727_5301189609881862144_o.jpg.large\", \"large_width\": 1500, \"large_height\": 1125, \"title\": \"38848136_2332160076810727_5301189609881862144_o.jpg\"}",
+        "all_info_json": "{\"full\": \"38848136_2332160076810727_5301189609881862144_o.jpg\", \"width\": 1944, \"height\": 1458, \"aspect_ratio\": 75.0, \"thumb\": \"38848136_2332160076810727_5301189609881862144_o.jpg.thumb\", \"thumb_width\": 500, \"thumb_height\": 375, \"large\": \"38848136_2332160076810727_5301189609881862144_o.jpg.large\", \"large_width\": 1500, \"large_height\": 1125, \"title\": \"38848136_2332160076810727_5301189609881862144_o.jpg\"}",
+        "aspect_ratio": 75.0,
         "full": "38848136_2332160076810727_5301189609881862144_o.jpg",
         "height": 1458,
         "large": "38848136_2332160076810727_5301189609881862144_o.jpg.large",
@@ -377,7 +406,8 @@
         "width": 1944
     },
     {
-        "all_info_json": "{\"full\": \"IMG_3101-EFFECTS.jpg\", \"width\": 3264, \"height\": 2448, \"thumb\": \"IMG_3101-EFFECTS.jpg.thumb\", \"thumb_width\": 500, \"thumb_height\": 375, \"large\": \"IMG_3101-EFFECTS.jpg.large\", \"large_width\": 1500, \"large_height\": 1125, \"title\": \"IMG_3101-EFFECTS.jpg\"}",
+        "all_info_json": "{\"full\": \"IMG_3101-EFFECTS.jpg\", \"width\": 3264, \"height\": 2448, \"aspect_ratio\": 75.0, \"thumb\": \"IMG_3101-EFFECTS.jpg.thumb\", \"thumb_width\": 500, \"thumb_height\": 375, \"large\": \"IMG_3101-EFFECTS.jpg.large\", \"large_width\": 1500, \"large_height\": 1125, \"title\": \"IMG_3101-EFFECTS.jpg\"}",
+        "aspect_ratio": 75.0,
         "full": "IMG_3101-EFFECTS.jpg",
         "height": 2448,
         "large": "IMG_3101-EFFECTS.jpg.large",
@@ -390,7 +420,8 @@
         "width": 3264
     },
     {
-        "all_info_json": "{\"full\": \"DSC01981.jpg\", \"width\": 1906, \"height\": 1337, \"thumb\": \"DSC01981.jpg.thumb\", \"thumb_width\": 500, \"thumb_height\": 350, \"large\": \"DSC01981.jpg.large\", \"large_width\": 1500, \"large_height\": 1052, \"title\": \"DSC01981.jpg\"}",
+        "all_info_json": "{\"full\": \"DSC01981.jpg\", \"width\": 1906, \"height\": 1337, \"aspect_ratio\": 70.14690451206715, \"thumb\": \"DSC01981.jpg.thumb\", \"thumb_width\": 500, \"thumb_height\": 350, \"large\": \"DSC01981.jpg.large\", \"large_width\": 1500, \"large_height\": 1052, \"title\": \"DSC01981.jpg\"}",
+        "aspect_ratio": 70.14690451206715,
         "full": "DSC01981.jpg",
         "height": 1337,
         "large": "DSC01981.jpg.large",
@@ -403,7 +434,8 @@
         "width": 1906
     },
     {
-        "all_info_json": "{\"full\": \"DSC03158.jpg\", \"width\": 5456, \"height\": 3632, \"thumb\": \"DSC03158.jpg.thumb\", \"thumb_width\": 500, \"thumb_height\": 332, \"large\": \"DSC03158.jpg.large\", \"large_width\": 1500, \"large_height\": 998, \"title\": \"DSC03158.jpg\"}",
+        "all_info_json": "{\"full\": \"DSC03158.jpg\", \"width\": 5456, \"height\": 3632, \"aspect_ratio\": 66.56891495601172, \"thumb\": \"DSC03158.jpg.thumb\", \"thumb_width\": 500, \"thumb_height\": 332, \"large\": \"DSC03158.jpg.large\", \"large_width\": 1500, \"large_height\": 998, \"title\": \"DSC03158.jpg\"}",
+        "aspect_ratio": 66.56891495601172,
         "full": "DSC03158.jpg",
         "height": 3632,
         "large": "DSC03158.jpg.large",
@@ -416,7 +448,8 @@
         "width": 5456
     },
     {
-        "all_info_json": "{\"full\": \"IMG_3311.jpg\", \"width\": 3264, \"height\": 2448, \"thumb\": \"IMG_3311.jpg.thumb\", \"thumb_width\": 500, \"thumb_height\": 375, \"large\": \"IMG_3311.jpg.large\", \"large_width\": 1500, \"large_height\": 1125, \"title\": \"IMG_3311.jpg\"}",
+        "all_info_json": "{\"full\": \"IMG_3311.jpg\", \"width\": 3264, \"height\": 2448, \"aspect_ratio\": 75.0, \"thumb\": \"IMG_3311.jpg.thumb\", \"thumb_width\": 500, \"thumb_height\": 375, \"large\": \"IMG_3311.jpg.large\", \"large_width\": 1500, \"large_height\": 1125, \"title\": \"IMG_3311.jpg\"}",
+        "aspect_ratio": 75.0,
         "full": "IMG_3311.jpg",
         "height": 2448,
         "large": "IMG_3311.jpg.large",
@@ -429,7 +462,8 @@
         "width": 3264
     },
     {
-        "all_info_json": "{\"full\": \"DSC03005.jpg\", \"width\": 3632, \"height\": 5456, \"thumb\": \"DSC03005.jpg.thumb\", \"thumb_width\": 332, \"thumb_height\": 500, \"large\": \"DSC03005.jpg.large\", \"large_width\": 998, \"large_height\": 1500, \"title\": \"DSC03005.jpg\"}",
+        "all_info_json": "{\"full\": \"DSC03005.jpg\", \"width\": 3632, \"height\": 5456, \"aspect_ratio\": 150.2202643171806, \"thumb\": \"DSC03005.jpg.thumb\", \"thumb_width\": 332, \"thumb_height\": 500, \"large\": \"DSC03005.jpg.large\", \"large_width\": 998, \"large_height\": 1500, \"title\": \"DSC03005.jpg\"}",
+        "aspect_ratio": 150.2202643171806,
         "full": "DSC03005.jpg",
         "height": 5456,
         "large": "DSC03005.jpg.large",
@@ -442,7 +476,8 @@
         "width": 3632
     },
     {
-        "all_info_json": "{\"full\": \"IMG_3467.jpg\", \"width\": 2448, \"height\": 3264, \"thumb\": \"IMG_3467.jpg.thumb\", \"thumb_width\": 375, \"thumb_height\": 500, \"large\": \"IMG_3467.jpg.large\", \"large_width\": 1125, \"large_height\": 1500, \"title\": \"IMG_3467.jpg\"}",
+        "all_info_json": "{\"full\": \"IMG_3467.jpg\", \"width\": 2448, \"height\": 3264, \"aspect_ratio\": 133.33333333333331, \"thumb\": \"IMG_3467.jpg.thumb\", \"thumb_width\": 375, \"thumb_height\": 500, \"large\": \"IMG_3467.jpg.large\", \"large_width\": 1125, \"large_height\": 1500, \"title\": \"IMG_3467.jpg\"}",
+        "aspect_ratio": 133.33333333333331,
         "full": "IMG_3467.jpg",
         "height": 3264,
         "large": "IMG_3467.jpg.large",
@@ -455,7 +490,8 @@
         "width": 2448
     },
     {
-        "all_info_json": "{\"full\": \"IMG_2786.jpg\", \"width\": 3264, \"height\": 2448, \"thumb\": \"IMG_2786.jpg.thumb\", \"thumb_width\": 500, \"thumb_height\": 375, \"large\": \"IMG_2786.jpg.large\", \"large_width\": 1500, \"large_height\": 1125, \"title\": \"IMG_2786.jpg\"}",
+        "all_info_json": "{\"full\": \"IMG_2786.jpg\", \"width\": 3264, \"height\": 2448, \"aspect_ratio\": 75.0, \"thumb\": \"IMG_2786.jpg.thumb\", \"thumb_width\": 500, \"thumb_height\": 375, \"large\": \"IMG_2786.jpg.large\", \"large_width\": 1500, \"large_height\": 1125, \"title\": \"IMG_2786.jpg\"}",
+        "aspect_ratio": 75.0,
         "full": "IMG_2786.jpg",
         "height": 2448,
         "large": "IMG_2786.jpg.large",
@@ -468,7 +504,8 @@
         "width": 3264
     },
     {
-        "all_info_json": "{\"full\": \"DSC03228.jpg\", \"width\": 5456, \"height\": 3632, \"thumb\": \"DSC03228.jpg.thumb\", \"thumb_width\": 500, \"thumb_height\": 332, \"large\": \"DSC03228.jpg.large\", \"large_width\": 1500, \"large_height\": 998, \"title\": \"DSC03228.jpg\"}",
+        "all_info_json": "{\"full\": \"DSC03228.jpg\", \"width\": 5456, \"height\": 3632, \"aspect_ratio\": 66.56891495601172, \"thumb\": \"DSC03228.jpg.thumb\", \"thumb_width\": 500, \"thumb_height\": 332, \"large\": \"DSC03228.jpg.large\", \"large_width\": 1500, \"large_height\": 998, \"title\": \"DSC03228.jpg\"}",
+        "aspect_ratio": 66.56891495601172,
         "full": "DSC03228.jpg",
         "height": 3632,
         "large": "DSC03228.jpg.large",
@@ -481,7 +518,8 @@
         "width": 5456
     },
     {
-        "all_info_json": "{\"full\": \"DSC01167.jpg\", \"width\": 5456, \"height\": 3632, \"thumb\": \"DSC01167.jpg.thumb\", \"thumb_width\": 500, \"thumb_height\": 332, \"large\": \"DSC01167.jpg.large\", \"large_width\": 1500, \"large_height\": 998, \"title\": \"DSC01167.jpg\"}",
+        "all_info_json": "{\"full\": \"DSC01167.jpg\", \"width\": 5456, \"height\": 3632, \"aspect_ratio\": 66.56891495601172, \"thumb\": \"DSC01167.jpg.thumb\", \"thumb_width\": 500, \"thumb_height\": 332, \"large\": \"DSC01167.jpg.large\", \"large_width\": 1500, \"large_height\": 998, \"title\": \"DSC01167.jpg\"}",
+        "aspect_ratio": 66.56891495601172,
         "full": "DSC01167.jpg",
         "height": 3632,
         "large": "DSC01167.jpg.large",
@@ -494,7 +532,8 @@
         "width": 5456
     },
     {
-        "all_info_json": "{\"full\": \"DSC01198.jpg\", \"width\": 5456, \"height\": 3632, \"thumb\": \"DSC01198.jpg.thumb\", \"thumb_width\": 500, \"thumb_height\": 332, \"large\": \"DSC01198.jpg.large\", \"large_width\": 1500, \"large_height\": 998, \"title\": \"DSC01198.jpg\"}",
+        "all_info_json": "{\"full\": \"DSC01198.jpg\", \"width\": 5456, \"height\": 3632, \"aspect_ratio\": 66.56891495601172, \"thumb\": \"DSC01198.jpg.thumb\", \"thumb_width\": 500, \"thumb_height\": 332, \"large\": \"DSC01198.jpg.large\", \"large_width\": 1500, \"large_height\": 998, \"title\": \"DSC01198.jpg\"}",
+        "aspect_ratio": 66.56891495601172,
         "full": "DSC01198.jpg",
         "height": 3632,
         "large": "DSC01198.jpg.large",

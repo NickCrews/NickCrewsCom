@@ -1,9 +1,10 @@
-/* with flexbox */
-.grid {
+/* Make the columns expand left-right */
+.grid-col-container {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
+  margin: 5px;
 }
 
 .grid-col {
@@ -31,26 +32,25 @@
   .grid-col--3 { display: block; } /* show column 3 */
 }
 
-/* Add gutter to entire grid so that exterior side
-margins are equally wide as interior vertical gutters */
-.guttered-photo-grid {
-  margin-right: 5px;
-  margin-left: 5px
-}
-
 .grid-item {
   margin-left: 7px;
   margin-right: 7px;
-  margin-top: 14px;
+  padding-top: 14px;
   display: block;
   transition: all .2s ease-in-out;
   position: relative;
 }
 
-a.grid-item img{
-  margin: 0;
+.photo-placeholder {
+  position: relative;
+  background-color: rgba(0,255,255,.2);;
+}
+
+.grid-item img {
+  position: absolute;
   width: 100%;
-  display: block;
+  left: 0;
+  bottom: 0;
 }
 
 .grid-item:hover {
