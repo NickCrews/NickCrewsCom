@@ -40,13 +40,17 @@
 .item-content {
   position: relative;
   display: block;
-  background-image: linear-gradient(to bottom right, red, yellow);
   transition: all .2s ease-in-out;
+}
+
+.item-content:hover {
+  transform: scale(1.01);
+  opacity:0.9;
 }
 
 .item-img-placeholder {
   position: relative;
-  background-image: linear-gradient(to bottom left, bisque, teal);
+  background-color: lightgrey;
 }
 
 .item-img {
@@ -54,11 +58,6 @@
   width: 100%;
   left: 0;
   bottom: 0;
-}
-
-.item-content:hover {
-  transform: scale(1.01);
-  opacity:0.9;
 }
 
 .item-content h3 {
@@ -69,7 +68,7 @@
   width: 100%;
   opacity: 0;
   transition: inherit;
-  color: rgba(255,255,255,.9);
+  color: rgba(255,255,255,1);
   text-overflow: ellipsis;
 }
 
