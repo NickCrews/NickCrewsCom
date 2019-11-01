@@ -81,27 +81,11 @@ def render_md(env, template, **kwargs):
     post_template = env.get_template("projects/_post.html")
     post_template.stream(**kwargs).dump(out, encoding="utf-8")
 
-
-def render_photo(env, template, **kwargs):
-    """Render a template as a post."""
-    print("rendering photo!")
-    # directory, fname = os.path.split(template.name)
-    # post_title, _ = fname.split(".")
-    # post_fname = "%s.html" % post_title
-    #
-    # out_dir = os.path.join(env.outpath, directory)
-    # if not os.path.exists(out_dir):
-    #     os.makedirs(out_dir)
-    # out = os.path.join(out_dir, post_fname)
-    #
-    # post_template = env.get_template("projects/_post.html")
-    # post_template.stream(**kwargs).dump(out, encoding="utf-8")
-
-
 # def upperstring(input):
 #     return input.upper()
 
 # env.filters['upperstring'] = upperstring
+
 
 def render_pass(env, template, **kwargs):
     pass
