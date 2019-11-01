@@ -28,6 +28,7 @@ class MySite(sj.Site):
 
     IGNORED_PATTERNS = [
         '.*info\.json',
+        '.*\.DS_Store'
     ]
 
     def is_static(self, filename):
@@ -87,8 +88,6 @@ def render_md(env, template, **kwargs):
 # env.filters['upperstring'] = upperstring
 
 
-def render_pass(env, template, **kwargs):
-    pass
 
 
 def get_projects(src_dir):
@@ -133,8 +132,6 @@ def main():
                          ],
                          rules=[
                              ('.*.md', render_md),
-                             ('.*.jpg', render_photo),
-                             ('.*.DS_Store', render_pass),
                          ],
                          )
         site = MySite.make_site(**site_args)
