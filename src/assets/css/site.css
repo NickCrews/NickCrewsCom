@@ -47,37 +47,3 @@ p {
   max-width: 800px;
   background: white;
 }
-
-.home .fade
-{
-  position: absolute;
-  bottom: 0px;
-  width: 100%;
-  height: 200px;
-  z-index: 1;
-  background: -webkit-linear-gradient(var(--seewhite), var(--lightwhite));
-          background: linear-gradient(var(--seewhite), var(--lightwhite));
-}
-
-.page h5
-{
-  position: absolute;
-  margin: 0px;
-  bottom: 2px;
-  right: 6px;
-  color: var(--black);
-  font-size: 6px;
-  font-weight: 300;
-}
-
-.page h3
-{
-  position: absolute;
-  margin: 0px;
-  bottom: 0px;
-  left: 14px;
-  z-index: 1;
-  color: var(--red);
-  font-size: 36px;
-  font-weight: 300;
-}
