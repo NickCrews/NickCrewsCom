@@ -18,9 +18,19 @@ def clean_build(dir):
 
 class MySite(sj.Site):
 
-    def is_ignored(self, filename):
-        res = bool(re.match('.*\.jpg', filename))
-        return res
+    STATIC_PATTERNS = [
+        '.*\.jpg',
+        '.*\.jpeg',
+        '.*\.ico',
+        '.*\.png',
+        '.*\.gif',
+    ]
+
+    def is_static(self, filename):
+        for pattern in self.STATIC_PATTERNS:
+            if re.match(pattern, filename):
+                return True
+        return False
 
 
 # def render_md(path):
