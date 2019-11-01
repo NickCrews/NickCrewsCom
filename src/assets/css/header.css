@@ -1,0 +1,28 @@
+.nc-header ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: darkgrey;
+}
+
+.nc-header li {
+  float: left;
+}
+
+.nc-header li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 16px;
+  text-decoration: none;
+  text-shadow: 0px 0px 5px black;
+}
+
+.nc-header li:hover {
+  background-color: lightgray;
+}
+
+.nc-header .title {
+  border-right: 1px solid lightgray;
+}
