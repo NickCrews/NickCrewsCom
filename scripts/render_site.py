@@ -83,6 +83,10 @@ def render_photo(env, template, **kwargs):
 
 # env.filters['upperstring'] = upperstring
 
+def render_pass(env, template, **kwargs):
+    pass
+
+
 def get_projects(src_dir):
     projects_dir = os.path.join(src_dir, 'projects')
     for proj_name in os.listdir(projects_dir):
@@ -124,7 +128,9 @@ def main():
                              ('.*.md', get_md_contents),
                          ],
                          rules=[
-                             ('.*.md', render_md), ('.*.jpg', render_photo)
+                             ('.*.md', render_md),
+                             ('.*.jpg', render_photo),
+                             ('.*.DS_Store', render_pass),
                          ],
                          )
         site = MySite.make_site(**site_args)
