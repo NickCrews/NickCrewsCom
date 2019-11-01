@@ -1,0 +1,17 @@
+.proj-card {
+  border: 5px;
+  margin: 20px;
+  display: flex;
+  background: darkgrey;
+}
+
+.proj-thumbnail {
+  width: 150px;
+  height: 150px;
+  margin: 5px;
+  margin-right: 25px;
+}
+
+.proj-summary {
+  max-width: 500px;
+}
