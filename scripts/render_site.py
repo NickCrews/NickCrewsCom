@@ -88,26 +88,43 @@ def render_md(env, template, **kwargs):
 # env.filters['upperstring'] = upperstring
 
 
+def get_project(proj_path):
+    print(proj_path)
+    _, proj_name = os.path.split(proj_path)
+
+    def path_rel_to_src(path):
+        return 'projects/' + proj_name + '/' + path
+
+    proj = {}
+    proj['posts'] = []
+    for entry_name in os.listdir(proj_path):
+        entry_path = os.path.join(proj_path, entry_name)
+        if not os.path.isfile(entry_path):
+            continue
+
+        if entry_name == 'info.json':
+            with open(entry_path) as f:
+                info = jsonlib.load(f)
+                proj.update(info)
+
+        post_title, extension = entry_name.split(".")
+        if extension == 'md':
+            proj['posts'].append(path_rel_to_src(post_title))
+
+    proj['homepage'] = proj['posts'][0]
+    proj['image'] = path_rel_to_src(proj['image'])
+    print(proj)
+    return proj
 
 
 def get_projects(src_dir):
     projects_dir = os.path.join(src_dir, 'projects')
+    projects = []
     for proj_name in os.listdir(projects_dir):
         proj_path = os.path.join(projects_dir, proj_name)
-        if not os.path.isdir(proj_path):
-            continue
-        proj = {}
-        proj['name'] = proj_name
-        proj['posts'] = []
-        for entry_name in os.listdir(proj_path):
-            entry_path = os.path.join(proj_path, entry_name)
-            if not os.path.isfile(entry_path):
-                continue
-            post_title, _ = entry_name.split(".")
-            post_path = 'projects/' + proj_name + '/' + post_title
-            proj['posts'].append(post_path)
-        proj['homepage'] = proj['posts'][0]
-        yield proj
+        if os.path.isdir(proj_path):
+            projects.append(get_project(proj_path))
+    return projects
 
 
 def main():
