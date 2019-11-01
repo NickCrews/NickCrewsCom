@@ -26,8 +26,18 @@ class MySite(sj.Site):
         '.*\.gif',
     ]
 
+    IGNORED_PATTERNS = [
+        '.*info\.json',
+    ]
+
     def is_static(self, filename):
         for pattern in self.STATIC_PATTERNS:
+            if re.match(pattern, filename):
+                return True
+        return False
+
+    def is_ignored(self, filename):
+        for pattern in self.IGNORED_PATTERNS:
             if re.match(pattern, filename):
                 return True
         return False
